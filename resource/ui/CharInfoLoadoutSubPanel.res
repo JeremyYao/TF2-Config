@@ -30,7 +30,7 @@
 		"class_tall_max"			"200"
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
-
+		
 		"itemcountcolor"			"Base Color"
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
@@ -279,7 +279,7 @@
 		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
-		"Command"			"backpack"
+		"Command"			"Backpack"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
@@ -641,8 +641,8 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"?"
 		"font"			"HudFontSmallBold"
