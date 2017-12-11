@@ -177,18 +177,6 @@
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 		"image"			"../console/background_upward"
-
-		if_wider
-		{
-			"wide"			"f0"
-			"tall"			"o0.628"
-		}
-
-		if_taller
-		{
-			"wide"			"o1.6"
-			"tall"			"f0"
-		}
 	}
 	
 	"HudNameBG"
@@ -1126,7 +1114,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
 		"xpos"			"225"
-		"ypos"			"58"
+		"ypos"			"57"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"25"
@@ -1720,7 +1708,7 @@
 		"ControlName"	"CExLabel"
 		"fieldname"		"VersionNumber"
 		"font"			"Cerbetica14"
-		"labelText"		"v2017.10.29"
+		"labelText"		"v2017.12.10"
 		"xpos"			"r55"
 		"ypos"			"r13"
 		"wide"			"80"
