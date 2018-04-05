@@ -7,12 +7,11 @@
 	//--------------------------------------------------------------
 	// KNUCKLESCROSSES
 	//--------------------------------------------------------------
-	KnucklesCrosses
+	"KnucklesCrosses"
 	{
 		"visible" 			"0"
 		"enabled" 			"0"
 		"labelText"			"i"
-		
 		"controlName"		"CExLabel"
 		"fieldName"	 		"KnucklesCrosses"
 		"zpos"				"0"
@@ -27,7 +26,7 @@
 	//--------------------------------------------------------------
 	// RAYSHUD CROSSHAIRS
 	//--------------------------------------------------------------
-	xHairCircle
+	"xHairCircle"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairCircle"
@@ -35,333 +34,269 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-100"
 		"ypos"			"c-102"
 		"wide"			"201"
 		"tall"			"200"
-
-		//"font"		"xHairCircleOutline"
-		"font"			"xHairCircle"
+		"font"			"xHairCircle"	//"xHairCircleOutline"
 		"labelText"		"o"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 100"
 	}
 	
-	ScatterSpread
+	"ScatterSpread"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"ScatterSpread"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-99"
 		"ypos"			"c-99"
 		"wide"			"200"
 		"tall"			"200"
-
-		//"font"		"CrosshairsOutline32"
-		"font"			"Crosshairs32"
+		"font"			"Crosshairs32"	//"CrosshairsOutline32"
 		"labelText"		"0"
 		"textAlignment"	"center"
 		"outline"		"1"
-		
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	BasicCross
+	"BasicCross"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BasicCross"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-102"
 		"ypos"			"c-99"
 		"wide"			"200"
 		"tall"			"200"
-
-		//"font"		"CrosshairsOutline26"
-		"font"			"Crosshairs26"
+		"font"			"Crosshairs26"	//"CrosshairsOutline26"
 		"labelText"		"2"
-		"textAlignment"		"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	BasicCrossSmall
+	"BasicCrossSmall"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BasicCrossSmall"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-101"
 		"ypos"			"c-99"
 		"wide"			"200"
 		"tall"			"200"
-
-		//"font"		"CrosshairsOutline18"
-		"font"			"Crosshairs18"
+		"font"			"Crosshairs18"	//"CrosshairsOutline18"
 		"labelText"		"2"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	BasicCrossLarge
+	"BasicCrossLarge"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BasicCrossLarge"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-102"
 		"ypos"			"c-98"
 		"wide"			"200"
 		"tall"			"200"
-
-		//"font"		"CrosshairsOutline32"
-		"font"			"Crosshairs32"
+		"font"			"Crosshairs32"	//"CrosshairsOutline32"
 		"labelText"		"2"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	BasicDot
+	"BasicDot"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BasicDot"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-103"
 		"ypos"			"c-100"
 		"wide"			"201"
 		"tall"			"201"
-
-		//"font"		"CrosshairsOutline24"
-		"font"			"Crosshairs24"
+		"font"			"Crosshairs24"	//"CrosshairsOutline24"
 		"labelText"		"3"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 255"
 	}
 
-	CircleDot
+	"CircleDot"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CircleDot"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-100"
 		"ypos"			"c-96"
 		"wide"			"200"
 		"tall"			"200"
-
-		//"font"		"CrosshairsOutline34"
-		"font"			"Crosshairs34"
+		"font"			"Crosshairs34"	//"CrosshairsOutline34"
 		"labelText"		"8"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	ThinCircle
+	"ThinCircle"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"ThinCircle"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-100"
 		"ypos"			"c-96"
 		"wide"			"200"
 		"tall"			"200"
-
-		//"font"		"CrosshairsOutline34"
-		"font"			"Crosshairs34"
+		"font"			"Crosshairs34"	//"CrosshairsOutline34"
 		"labelText"		"9"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	WingsPlus
+	"WingsPlus"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"WingsPlus"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-100"
 		"ypos"			"c-97"
 		"wide"			"200"
 		"tall"			"200"
-
-		//"font"		"CrosshairsOutline34"
-		"font"			"Crosshairs34"
+		"font"			"Crosshairs34"	//"CrosshairsOutline34"
 		"labelText"		"c"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	Wings
+	"Wings"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"Wings"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-100"
 		"ypos"			"c-97"
 		"wide"			"200"
 		"tall"			"200"
-
-		//"font"		"CrosshairsOutline34"
-		"font"			"Crosshairs34"
+		"font"			"Crosshairs34"	//"CrosshairsOutline34"
 		"labelText"		"d"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	WingsSmallDot
+	"WingsSmallDot"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"WingsSmallDot"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-100"
 		"ypos"			"c-97"
 		"wide"			"200"
 		"tall"			"200"
-
-		//"font"		"CrosshairsOutline34"
-		"font"			"Crosshairs34"
+		"font"			"Crosshairs34"	//"CrosshairsOutline34"
 		"labelText"		"f"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"0 0 0 0"
 	}
 	
-	WingsSmall
+	"WingsSmall"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"WingsSmall"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-100"
 		"ypos"			"c-97"
 		"wide"			"200"
 		"tall"			"200"
-
-		//"font"		"CrosshairsOutline34"
-		"font"			"Crosshairs34"
+		"font"			"Crosshairs34"	//"CrosshairsOutline34"
 		"labelText"		"g"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	OpenCross
+	"OpenCross"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"OpenCross"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-85"
 		"ypos"			"c-100"
 		"wide"			"199"
 		"tall"			"200"
-
-		"font"			"CrosshairsOutline24"
-		"font"			"Crosshairs24"
+		"font"			"Crosshairs24"	//"CrosshairsOutline24"
 		"labelText"		"i"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	OpenCrossDot
+	"OpenCrossDot"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"OpenCrossDot"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-85"
 		"ypos"			"c-100"
 		"wide"			"199"
 		"tall"			"200"
-
-		//"font"		"CrosshairsOutline24"
-		"font"			"Crosshairs24"
+		"font"			"Crosshairs24"	//"CrosshairsOutline24"
 		"labelText"		"h"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	ThinCross
+	"ThinCross"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"ThinCross"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-100"
 		"ypos"			"c-103"
 		"wide"			"200"
 		"tall"			"200"
-
-		//"font"		"SymbolOutline24"
-		"font"			"Symbol24"
+		"font"			"Symbol24"	//"SymbolOutline24"
 		"labelText"		"+"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	KonrWings
+	"KonrWings"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"KonrWings"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-
 		"xpos"			"c-108"
 		"ypos"			"c-99"
 		"wide"			"200"
 		"tall"			"200"
-
-		//"font"		"KonrWingsOutline24"
-		"font"			"KonrWings24"
+		"font"			"KonrWings24"	//"KonrWingsOutline24"
 		"labelText"		"i"
-		"textAlignment"	"center"	
-		
+		"textAlignment"	"center"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -372,14 +307,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"427"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"75"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"154"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -393,14 +324,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"40"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"240"
 		"zpos"			"-5"
 		"wide"			"374"
 		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -414,14 +341,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"439"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"240"
 		"zpos"			"-5"
 		"wide"			"374"
 		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -435,14 +358,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"426"
-		"xpos_lodef"	"278"
-		"xpos_hidef"	"308"
 		"ypos"			"190"
 		"zpos"			"-5"
 		"wide"			""
 		"tall"			"38"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -455,14 +374,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"427"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"252"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"38"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -475,14 +390,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"365"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"240"
 		"zpos"			"-5"
 		"wide"			"50"
 		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -497,14 +408,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"439"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"240"
 		"zpos"			"-5"
 		"wide"			"50"
 		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -522,14 +429,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"384"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"55"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"170"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -543,14 +446,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"35"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"240"
 		"zpos"			"-5"
 		"wide"			"330"
 		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -564,14 +463,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"403"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"240"
 		"zpos"			"-5"
 		"wide"			"330"
 		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -585,14 +480,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"384"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"187"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"38"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -606,14 +497,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"384"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"254"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"38"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -627,14 +514,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"315"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"240"
 		"zpos"			"-5"
 		"wide"			"50"
 		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -648,14 +531,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"403"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"240"
 		"zpos"			"-5"
 		"wide"			"50"
 		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -673,14 +552,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"319"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"70"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"154"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -694,14 +569,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"10"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"240"
 		"zpos"			"-5"
 		"wide"			"290"
 		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -715,14 +586,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"340"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"240"
 		"zpos"			"-5"
 		"wide"			"290"
 		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -736,14 +603,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"319"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"186"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"38"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -757,14 +620,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"319"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"255"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"38"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -778,14 +637,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"250"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"240"
 		"zpos"			"-5"
 		"wide"			"50"
 		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -799,14 +654,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"340"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"240"
 		"zpos"			"-5"
 		"wide"			"50"
 		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -815,7 +666,7 @@
 		"alpha" 		"100"
 	}
 	//--------------------------------------------------------------
-	// TRANSPARENT VIEWMODELS
+	// TRANSPARENT VIEWMODEL
 	//--------------------------------------------------------------
 	"TransparentViewmodel"
 	{
@@ -851,7 +702,7 @@
 		"ypos"	"c66"
 		"xpos_minmode"	"c20"
 		"ypos_minmode"	"c16"
-		"wide"	"300" //was made 4 units taller in MvM update
+		"wide"	"300"
 		"tall"	"300"
 	}
 	
@@ -1028,7 +879,7 @@
 		"ypos"					"c45"
 		"wide"					"250"
 		"tall"  				"120"
-		"xpos_minmode"			"c-100"		
+		"xpos_minmode"			"c-100"
 		"ypos_minmode"			"c5"
 		"wide_minmode"			"f0"
 		"tall_minmode"			"480"
@@ -1069,8 +920,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c25"
-		"ypos_minmode"	"c105"
+		"ypos"		"265"
+		"ypos_minmode"	"345"
 		"zpos"		"1"
 		"wide"	 	"600"
 		"tall"	 	"45"
@@ -1083,7 +934,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c25"
+		"ypos"		"270"
 		"zpos"		"1"
 		"wide"	 	"600"
 		"tall"	 	"45"
@@ -1099,7 +950,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos" 		"c-100"
-		"ypos" 		"c65"
+		"ypos"		"305"
 		"zpos"		"1"
 		"wide" 		"600"
 		"tall" 		"45"
@@ -1290,7 +1141,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r592"	[$WIN32]
-		"ypos"	 "12"	[$WIN32]
+		"ypos"	 "20"	[$WIN32]
 		"wide"	 "580"
 		"tall"	 "468"
 
@@ -1301,7 +1152,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"CerbeticaBold14"
+		"TextFont"		"CerbeticaBold12"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"

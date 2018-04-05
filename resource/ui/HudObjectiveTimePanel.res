@@ -54,7 +54,7 @@
 		"xpos"			"25"
 		"ypos"			"21"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"36"
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
@@ -68,9 +68,7 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"wide"					"36"
-			"xpos"					"2"
-			"ypos"					"18"
+			"xpos"					"37"
 			"font"					"HudFontSmallestBold"
 		}
 	}			
@@ -118,7 +116,7 @@
 			"proportionaltoparent"	"1"
 			"font"					"HudFontSmallestBold"
 			"xpos"					"c0"
-			"wide"					"72"
+			"wide"					"p1"
 			"ypos"					"22"
 			"font"			"Cerbetica10"
 		}
@@ -169,6 +167,7 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"22"
+			"wide"					"p1"
 			"font"			"Cerbetica10"
 		}		
 	}			
@@ -216,6 +215,7 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"22"
+			"wide"					"p1"
 			"font"			"Cerbetica10"
 		}		
 	}	
@@ -256,21 +256,19 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"Cerbetica14"
+		"font"			"Cerbetica10"
 		
 		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"ypos_minmode"			"17"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"ypos"					"22"
+			"wide"					"p1"
+			"font"					"Cerbetica10"
 		}
 	}
 	"ServerTimeLimitLabelBG"
