@@ -1,9 +1,9 @@
-"Resource/UI/CharInfoPanel.res"
+"Resource/UI/replaybrowser/mainpanel.res"
 {
-	"character_info"
+	"ReplayBrowser"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"character_info"
+		"fieldName"		"ReplayBrowser"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
@@ -19,18 +19,16 @@
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"			"#CharInfoAndSetup"
-		"title_font"	"HudFontMediumBold"
+		"title"				"#Replay_Replay"
+		"title_font"		"CerbeticaBold36"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
-		
+		"titlebarbgcolor_override"				"27 27 27 255"
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
-	
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -44,7 +42,7 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}
+	}			
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"
@@ -56,10 +54,9 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 175"
+		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}		
-
+	}	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -80,93 +77,83 @@
 		"fieldName"		"BackgroundFooter2"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"1"
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 220"
+		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}
-	
+	}					
 	"FooterLine"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HeaderLine"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FooterLine"
 		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"2"
-		"border"				"NoBorder"
-		"bgcolor_override"		"Base Color"
-	}
-	
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"loadout_solid_line"
+		"scaleImage"	"1"
+	}							
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"80"
+		"tabxindent"	"15"
 		"tabxdelta"		"10"
-		"tabwidth"		"240"
+		"tabwidth"		"150"
 		"tabheight"		"20"
 		"transition_time" "0"
-		"yoffset"		"14"
+		"yoffset"		"15"
 		
 		"HeaderLine"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
 			"ypos"			"32"
 			"zpos"			"5"
 			"wide"			"f0"
-			"tall"			"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
-			"bgcolor_override"		"Base Color"
-		}				
+			"tall"			"10"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			"loadout_solid_line"
+			"scaleImage"	"1"
+		}						
 		
 		"tabskv"
 		{
-			"textinsetx"		"25"
-			"textAlignment"		"center"
-			"font"				"Cerbetica20"
-			"ypos"				"50"
-			"selectedcolor"		"TanLight"
-			"unselectedcolor"	"TanDark"	
-			"paintbackground"	"1"
-			"defaultBgColor_override"	"25 25 25 255"
-			"unselectedBgColor_override"	"10 10 10 255"
-			"activeborder_override"	"CyanBorderTabs"
-			"depressedBgColor_override"		"10 10 10 255"
-			"normalborder_override" "CyanBorderTabsInactive"
+			"textinsetx"		"0"
+			"textinsety"		"-6"
+			"font"				"CerbeticaBold20"
+			"selectedcolor"		"White"
+			"unselectedcolor"	"DullWhite"	
+			"defaultBgColor_override"	"Blank"
+			"paintbackground"	"0"
+			"activeborder_override"	"NoBorder"
+			"normalborder_override" "NoBorder"
 		}
 	}
-	
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-295"
+		"xpos"			"c-288"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<< Back (&Q)"
-		"font"			"HudFontSmallBold"
+		"labelText"		"Back"
+		"font"			"CerbeticaBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -174,27 +161,5 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"15 15 15 255"
-		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
-	}
-	
-	"NotificationsPresentPanel"
-	{
-		"ControlName"	"CNotificationsPresentPanel"
-		"fieldName"		"NotificationsPresentPanel"
-		"xpos"			"r200"
-		"ypos"			"10"
-		"zpos"			"10000"
-		"wide"			"190"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"1"
-	}
+	}		
 }
