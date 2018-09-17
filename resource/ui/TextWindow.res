@@ -2,18 +2,18 @@
 {
 	"info"
 	{
-		"ControlName"			"CTFTextWindow"
-		"fieldName"				"info"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"settitlebarvisible"	"0"
+		"ControlName"	"CTFTextWindow"
+		"fieldName"		"info"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"settitlebarvisible" "0"
 	}
 	
 	"MainBG"
@@ -29,7 +29,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 200"
 	}
 	
 	"TFMessageTitle"
@@ -52,7 +52,7 @@
 		"font"			"Cerbetica24"
 		"fgcolor"		"TanLight"
 	}
-
+	
 	"TextMessage"
 	{
 		"ControlName"	"TextEntry"
@@ -60,7 +60,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-
+	
 	"TFTextMessage"
 	{
 		"ControlName"	"CExRichText"
@@ -79,10 +79,10 @@
 		"textAlignment"	"northwest"
 		"fgcolor"		"TanLight"
 	}
-
+	
 	"HTMLMessage"
 	{
-		"ControlName"		"HTML"
+		"ControlName"	"HTML"
 		"fieldName"		"HTMLMessage"
 		"xpos"			"c-170"
 		"ypos"			"c-110"
@@ -93,13 +93,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		"paintborder"	"0"
 	}
 	
 	"ok"
 	{
-		"ControlName"		"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"ok"
 		"xpos"			"c-180"
 		"ypos"			"c96"

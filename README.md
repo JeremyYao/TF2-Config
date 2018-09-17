@@ -25,7 +25,7 @@ Screenshots
 To Download
 --------
 
-Click [this link](https://github.com/raysfire/rayshud/archive/master.zip) or the green `Clone or Download` button at the top of the page and then `Download ZIP` in order to download the most recent version of my hud! It should be at the top of the page. 
+Click [here](https://github.com/raysfire/rayshud/archive/master.zip) or the green `Clone or Download` button near the top of the page and then `Download ZIP` in order to download the latest version of my hud!
 
 To Install
 --------
@@ -51,9 +51,8 @@ tf
 
 Help/Support
 --------
-* If you have a MAC, remove the existing clientscheme.res file in the `rayshud/resources` folder and rename the file clientscheme_mac to clientscheme. If you don't do this, the in-game font will not render properly, or maybe still won't.
-* If you're experiencing 4:3 resolution issues, copy the contents of `rayshud/customizations/4_by_3_ratio` folder into `rayshud/resource/ui`. If issues persist, open an issue ticket.
-* If you've found a bug, need help or have a suggestion - either [open a support ticket here on GitHub](https://github.com/raysfire/rayshud/issues/new) or [make a post on the Steam Group](https://steamcommunity.com/groups/rayshud).
+* If you can't see player health as Spy or the Medic, disable floating TargetID health by inputting `tf_hud_target_id_disable_floating_health 1` into the console or disabling the option in Advanced Options.
+* If you've found a bug or have a suggestion, [open a ticket on GitHub](https://github.com/raysfire/rayshud/issues/new) or [make a post on the Steam Group Forums](https://steamcommunity.com/groups/rayshud/discussions).
 
 Credits
 --------
@@ -64,4 +63,4 @@ Credits
 * My team - For dealing with me and giving me constructive feedback all the time.
 * Flame - If it weren't for your guide, I couldn't have made this at all. Thanks a million, man.
 
-v2018.07.22
+v2018.08.12
