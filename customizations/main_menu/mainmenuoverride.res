@@ -173,7 +173,48 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			""
+		"image"			"../console/background_upward"
+
+		if_wider
+		{
+			"wide"			"f0"
+			"tall"			"o0.628"
+		}
+
+		if_taller
+		{
+			"wide"			"o1.6"
+			"tall"			"f0"
+		}
+		
+		if_halloween_0
+		{
+			"image"		"../console/title_team_halloween2011_widescreen"
+		}
+		if_halloween_1
+		{
+			"image"		"../console/title_team_halloween2012_widescreen"
+		}
+		if_halloween_2
+		{
+			"image"		"../console/title_team_halloween2013_widescreen"
+		}
+		if_halloween_3
+		{
+			"image"		"../console/title_team_halloween2014_widescreen"
+		}
+		if_halloween_4
+		{	
+			"image"		"../console/title_team_halloween2015_widescreen"
+		}
+		if_halloween_5
+		{	
+			"image"		"../console/title_scream_fortress_2017_widescreen"
+		}
+		if_fullmoon
+		{
+			"image"		"../console/title_fullmoon_widescreen"
+		}
 	}
 	
 	"MainMenuSideBG"
@@ -968,8 +1009,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"9999"
-		"ypos"			"-80"
+		"xpos"			"c-250"
+		"ypos"			"9999"
 		"zpos"			"-99"
 		"wide"			"600"
 		"tall"			"600"
@@ -983,8 +1024,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"Cerbetica14"
-		"labelText"		"v2019.0406"
-		"xpos"			"r55"
+		"labelText"		"v2019.0806"
+		"xpos"			"r57"
 		"ypos"			"r13"
 		"wide"			"80"
 		"tall"			"10"
