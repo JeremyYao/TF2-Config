@@ -11,174 +11,217 @@
 	
 	"SidePanelBG"
 	{
-		"fillcolor"		"0 0 0 0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"fillcolor"		"0 0 0 150"
 	}
 	
 	"scout"
 	{
-		"xpos"				"c81"
-		"ypos"				"193"
+		"xpos"			"c81"
+		"ypos"			"180"
 	}
 	
 	"soldier"
 	{
-		"xpos"				"c80"
-		"ypos"				"207"
+		"xpos"			"c80"
+		"ypos"			"196"
 	}
 	
 	"pyro"
 	{
-		"xpos"				"c80"
-		"ypos"				"221"
+		"xpos"			"c80"
+		"ypos"			"212"
 	}
 	
 	"demoman"
 	{
-		"xpos"				"c80"
-		"ypos"				"241"
+		"xpos"			"c80"
+		"ypos"			"232"
 	}
 
 	"heavyweapons"
 	{
-		"xpos"				"c80"
-		"ypos"				"255"
+		"xpos"			"c80"
+		"ypos"			"248"
 	}
 	
 	"engineer"
 	{
-		"xpos"				"c80"
-		"ypos"				"269"
+		"xpos"			"c80"
+		"ypos"			"264"
 	}
 	
 	"medic"
 	{
-		"xpos"				"c80"
-		"ypos"				"289"
+		"xpos"			"c80"
+		"ypos"			"284"
 	}
 
 	"sniper"
 	{
-		"xpos"				"c80"
-		"ypos"				"303"
+		"xpos"			"c80"
+		"ypos"			"300"
 	}
 	
 	"spy"
 	{
-		"xpos"				"c80"
-		"ypos"				"317"
+		"xpos"			"c80"
+		"ypos"			"316"
 	}
 
 	"random"
 	{
-		"xpos"				"c80"
-		"ypos"				"c101"
+		"xpos"			"c80"
+		"ypos"			"c100"
 	}
 	
 	"EditLoadoutButton" [$WIN32]
 	{
-		"xpos"			"r180"
-		"wide"			"120"
-		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"xpos"			"c80"
+		"ypos"			"c120"
 	}
 	
 	"CancelButton" [$WIN32]
 	{
-		"xpos"			"c-295"
-		"wide"			"100"
-		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"xpos"			"c180"
+		"ypos"			"c100"
 	}
 	"numScout"
 	{
 		"xpos"			"c158"
-		"ypos"			"195"
+		"ypos"			"180"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numSoldier"
 	{
 		"xpos"			"c158"
-		"ypos"			"209"
+		"ypos"			"196"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numPyro"
 	{
 		"xpos"			"c158"
-		"ypos"			"223"
+		"ypos"			"212"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numDemoman"
 	{
 		"xpos"			"c158"
-		"ypos"			"243"
+		"ypos"			"232"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numHeavy"
 	{
 		"xpos"			"c158"
-		"ypos"			"257"
+		"ypos"			"248"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numEngineer"
 	{
 		"xpos"			"c158"
-		"ypos"			"271"
+		"ypos"			"264"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numMedic"
 	{
 		"xpos"			"c158"
-		"ypos"			"291"
+		"ypos"			"284"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numSniper"
 	{
 		"xpos"			"c158"
-		"ypos"			"305"
+		"ypos"			"300"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numSpy"
 	{
 		"xpos"			"c158"
-		"ypos"			"319"
+		"ypos"			"316"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
+	}
+	
+	"MvMUpgradeImageScout"
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageSolider"
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImagePyro" 
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageDemoman" 
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageHeavy"
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageEngineer"
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageMedic"
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageSniper"
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageSpy"
+	{
+		"xpos"			"9999"
 	}
 	
 	"TFPlayerModel"
 	{
 		"xpos"			"c-360"
-		"wide"			"480"
+		"wide"			"420"
 		"tall"			"480"
 		
 		"model"
 		{
-			"origin_x" "320"
+			"origin_x" "290"
 		}
 	}
 }

@@ -11,12 +11,12 @@
 		"enabled"		"1"
 		
 		"team1_player_base_offset_x"	"0"
-		"team1_player_base_y"			"220"
+		"team1_player_base_y"			"255"
 		"team1_player_delta_x"			"0"
 		"team1_player_delta_y"			"-16"
 		
 		"team2_player_base_offset_x"	"0"
-		"team2_player_base_y"			"240"
+		"team2_player_base_y"			"275"
 		"team2_player_delta_x"			"0"
 		"team2_player_delta_y"			"16"
 		
@@ -197,8 +197,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"3"
-				"wide"			"24"
-				"tall"			"14"
+				"wide"			"26"
+				"tall"			"17"
 				"visible" 		"1"
 				"enabled" 		"1"
 				"HealthBonusPosAdj" 		"10"
@@ -436,7 +436,7 @@
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		
-		"model_ypos"		"10"
+		"model_ypos"		"20"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
