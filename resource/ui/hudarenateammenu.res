@@ -13,21 +13,22 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		"fgcolor"		"255 0 0 255"
 	}
-	
+
 	"SidePanelBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SidePanelBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"0"
 		"wide"			"255"
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 60"
+		"fillcolor"		"0 0 0 120"
 	}
 
 	"SysMenu"
@@ -70,12 +71,12 @@
 		"wide"			"255"
 		"tall"			"30"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold28"
+		"font"			"Cerbetica28"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -94,35 +95,16 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"font"			"CerbeticaBold20"
-		
+		"font"			"Cerbetica20"
+		"allcaps"		"1"
+
 		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"255 255 255 128"
 		"selectedFgColor_override"	"TanLight"
-		
-		"defaultBgColor_override"	"0 0 0 200"
-		"armedBgColor_override"		"TanDarker"
-		"depressedBgColor_override"	"0 0 0 200"
-		"selectedBgColor_override"	"TanDarker"
 	}
-	
-	"JoinBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"JoinBG"
-		"xpos"			"0"
-		"ypos"			"c-35"
-		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
-	}
-	
+
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -141,25 +123,40 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
-		"font"			"CerbeticaBold20"
-		
+		"font"			"Cerbetica20"
+
 		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"255 255 255 128"
 		"selectedFgColor_override"	"TanLight"
-		
-		"defaultBgColor_override"	"0 0 0 200"
-		"armedBgColor_override"		"TanDarker"
-		"depressedBgColor_override"	"0 0 0 200"
-		"selectedBgColor_override"	"TanDarker"
+	}
+
+	"CancelButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton"
+		"wide"			"0"
+	}
+
+	"FightBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"FightBG"
+		"xpos"			"0"
+		"ypos"			"c-35"
+		"zpos"			"0"
+		"wide"			"255"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"TransparentBlack"
 	}
 	
-	"SpecBG"
+	"SpectateBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SpecBG"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"SpectateBG"
 		"xpos"			"0"
 		"ypos"			"c5"
 		"zpos"			"0"
@@ -167,9 +164,9 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
+		"bgcolor_override"	"TransparentBlack"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -185,46 +182,39 @@
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 200"
 	}
-	
+
 	"TeamMenuAuto"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"9999"
 	}
-	
+
 	"TeamMenuSpectate"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
 		"xpos"			"9999"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
 	}
-	
+
 	"autodoor"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"autodoor"
 		"xpos"			"9999"
 	}
-	
+
 	"spectate"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"spectate"
 		"xpos"			"9999"
-	}
-	
-	"CancelButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
-		"wide"			"0"
 	}
 }

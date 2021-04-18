@@ -10,10 +10,10 @@
 		"wide"			"190"
 		"tall"			"29"
 		"visible"		"0"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"AchievementName"
 	{
 		"ControlName"	"Label"
@@ -25,10 +25,10 @@
 		"tall"			"16"
 		"zpos"			"4"
 		"textinsetx"	"5"
-		"font"			"CerbeticaBold14"
+		"font"			"Cerbetica16"
 		"textAlignment"	"north-west"
 	}
-	
+
 	"AchievementNameGlow"
 	{
 		"ControlName"	"Label"
@@ -44,14 +44,14 @@
 		"textinsetx"		"5"
 		"textAlignment"		"north-west"
 	}
-	
+
 	"AchievementDesc"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"AchievementDesc"
 		"labeltext"		""
 		"xpos"			"5"
-		"ypos"			"12"
+		"ypos"			"14"
 		"wide"			"190"
 		"tall"			"18"
 		"zpos"			"4"
@@ -61,7 +61,7 @@
 		"wrap"				"1"
 		"TextAlignment"		"north-west"
 	}
-	
+
 	"ProgressBarBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -75,7 +75,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"ProgressBar"
 	{
 		"ControlName"	"ImagePanel"

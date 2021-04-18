@@ -14,7 +14,7 @@
 		"proportionaltoparent"	"1"
 		"pinCorner"		"2"
 		"autoResize"	"1"
-		
+
 		"RankImage"
 		{
 			"ControlName"	"CTFLocalPlayerBadgePanel"
@@ -30,30 +30,31 @@
 			"mouseinputenabled"	"0"
 			"matchgroup"	"MatchGroup_Casual_12v12"
 		}
-	
+
 		"RankPanel"
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"35"
-			"ypos"			"-15"
+			"xpos"			"0"
+			"ypos"			"-65"
 			"zpos"			"100"
 			"wide"			"330"
-			"tall"			"92"
-			"visible"		"0"
+			"tall"			"102"
+			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 			"matchgroup"	"MatchGroup_Casual_12v12"
 			"show_model"	"0"
 			"show_name"		"0"
+			"show_stats"	"1"
 		}
 
 		"RestoreCasualSearchCriteria"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
-			"xpos"			"rs1-49"
-			"ypos"			"15"
+			"xpos"			"rs1-27"
+			"ypos"			"38"
 			"zpos"			"100"
 			"wide"			"15"
 			"tall"			"o1"
@@ -75,7 +76,7 @@
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"169 123 53 255"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -91,13 +92,13 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"SaveCasualSearchCriteria"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
-			"xpos"			"rs1-29"
-			"ypos"			"15"
+			"xpos"			"rs1-7"
+			"ypos"			"38"
 			"zpos"			"100"
 			"wide"			"15"
 			"tall"			"o1"
@@ -119,7 +120,7 @@
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"169 123 53 255"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -135,7 +136,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"ShowExplanationsButton"
 		{
 			"ControlName"	"CExButton"
@@ -151,14 +152,14 @@
 			"ControlName"	"Label"
 			"fieldName"		"Title"
 			"xpos"			"10"
-			"ypos"			"15"
+			"ypos"			"35"
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"west"
-			"font"			"CerbeticaBold15"
+			"font"			"HudFontSmall"
 			"mouseinputenabled"	"0"
 		}
 
@@ -166,8 +167,8 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SelectedCount"
-			"xpos"			"10"
-			"ypos"			"0"
+			"xpos"			"100"
+			"ypos"			"35"
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"20"
@@ -184,7 +185,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"QueueEstimation"
 			"xpos"			"rs1-5"
-			"ypos"			"18"
+			"ypos"			"38"
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"20"
@@ -203,11 +204,11 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PlayListDropShadow"
 			"xpos"			"cs-0.5"
-			"ypos"			"65"
+			"ypos"			"55"
 			"zpos"			"101"
 			"wide"			"f15"
-			"tall"			"f65"
-			"visible"		"0"
+			"tall"			"f63"
+			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"
@@ -219,9 +220,9 @@
 			"ControlName"	"CScrollableList"
 			"fieldName"		"GameModesList"
 			"xpos"			"cs-0.5"
-			"ypos"			"35"
+			"ypos"			"55"
 			"wide"			"f15"
-			"tall"			"f40"
+			"tall"			"f63"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"restrict_width" "0"
@@ -243,14 +244,14 @@
 				{
 					"fgcolor_override"	"TanDark"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"	"Button"

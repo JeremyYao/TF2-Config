@@ -3,377 +3,12 @@ Scheme
 	Fonts
 	{
 		// CUSTOM
-		"CerbeticaBold72"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"72"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold64"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall" 		 	"64"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold56"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall" 		 	"56"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBoldOutline56"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall" 			"56"
-				"additive"	 	"0"
-				"antialias"	 	"1"
-				"outline"	 	"1"
-			}
-		}
-		"CerbeticaBold50"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall" 		 	"50"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold48"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall" 		 	"48"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold46"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall" 		 	"46"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold44"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall" 		 	"44"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold42"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"42"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold37"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"37"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold36"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"36"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold32"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"32"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBoldOutline32"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"32"
-				"additive"	 	"0"
-				"antialias"	 	"1"
-				"outline"		"1"
-			}
-		}
-		"CerbeticaBold28"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"28"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold27"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"27"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold24"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"24"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBoldOutline24"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall" 		 	"24"
-				"additive"	 	"0"
-				"antialias"	 	"1"
-				"outline"	 	"1"
-			}
-		}
-		"CerbeticaBold22"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"22"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold20"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"20"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold18"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"18"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold17"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"17"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold16"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"16"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBoldOutline16"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"16"
-				"additive"	 	"0"
-				"antialias"	 	"1"
-				"outline"	 	"1"
-			}
-		}
-		"CerbeticaBold15"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"15"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold14"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"14"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold13"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"13"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold12"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"12"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold10"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"10"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold8"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"8"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica72"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"72"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica60"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"60"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
 		"Cerbetica56"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica_bold"
 				"tall"			"56"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica55"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"55"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		
-		"Cerbetica54"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"54"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica52"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"52"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica48"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"48"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica44"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"44"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -382,18 +17,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica_bold"
 				"tall"			"40"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica36"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"36"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -402,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica_bold"
 				"tall"			"32"
 				"additive"		"0"
 				"antialias"		"1"
@@ -412,18 +37,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"26"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica26"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"26"
+				"name"			"Cerbetica_bold"
+				"tall"			"28"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -432,38 +47,28 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica_bold"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-		"CerbeticaOutline24"
+		"Cerbetica24Outline"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica_bold"
 				"tall"			"24"
-				"additive"	 	"0"
-				"antialias"	 	"1"
-				"outline"	 	"1"
-			}
-		}
-		"Cerbetica22"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"22"
 				"additive"		"0"
 				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
 		"Cerbetica20"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica_bold"
 				"tall"			"20"
 				"additive"		"0"
 				"antialias"		"1"
@@ -473,7 +78,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica_bold"
 				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
@@ -483,18 +88,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica_bold"
 				"tall"			"16"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica15"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"15"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -503,7 +98,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica_bold"
 				"tall"			"14"
 				"additive"		"0"
 				"antialias"		"1"
@@ -513,18 +108,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica_bold"
 				"tall"			"12"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica11"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"11"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -533,40 +118,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
-			}
-		}
-		"Cerbetica9"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"9"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica8"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"8"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica7"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"7"
-				"additive"		"0"
-				"antialias" 	"1"
 			}
 		}
 
@@ -575,15 +130,15 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"10"
+				"name"			"Cerbetica"
+				"tall"			"12"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 			"2"
 			{
-				"name"			"Cerbetica_bold"
-				"tall"			"12"
+				"name"			"Cerbetica"
+				"tall"			"14"
 				"range"			"0x0000 0x00FF"
 				"weight"		"800"
 			}
@@ -592,7 +147,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -603,7 +158,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"500"
 				"underline"		"1"
@@ -611,7 +166,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -621,7 +176,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -629,7 +184,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"13"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -637,7 +192,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -646,7 +201,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -655,7 +210,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"22"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -664,7 +219,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -674,7 +229,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -682,7 +237,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -690,7 +245,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -699,7 +254,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -708,7 +263,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"16"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -716,11 +271,11 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		DefaultLarge
+		"DefaultLarge"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -728,7 +283,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"21"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -736,7 +291,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"22"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -745,7 +300,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"28"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -754,7 +309,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"30"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -763,25 +318,25 @@ Scheme
 			}
 			"6"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
 		}
-		
-		CenterPrintText
+
+		"CenterPrintText"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"name"			"Helvetica" [$OSX]
 				"tall"			"18"
 				"weight"		"900"
@@ -789,28 +344,27 @@ Scheme
 				"additive"		"1"
 			}
 		}
-		
+
 		"PlayerPanelPlayerName"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
-		HudHintText
+
+		"HudHintText"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"10"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
+				"name"			"Cerbetica"
+				"tall"			"12"
+				"weight"		"700"
+				"yres"			"480 599"
 			}
 			"2"
 			{
@@ -841,21 +395,21 @@ Scheme
 				"yres"			"1200 10000"
 			}
 		}
-		
+
 		"HudFontGiant"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"yres"			"480 599"
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"32"
 				"weight"		"500"
 				"additive"		"0"
@@ -864,7 +418,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
@@ -873,7 +427,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"48"
 				"weight"		"500"
 				"additive"		"0"
@@ -882,7 +436,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"52"
 				"weight"		"500"
 				"additive"		"0"
@@ -894,7 +448,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
@@ -905,7 +459,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"35"
 				"weight"		"500"
 				"additive"		"0"
@@ -916,7 +470,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -927,7 +481,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
@@ -938,7 +492,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
@@ -949,7 +503,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -960,8 +514,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"24"
+				"name"			"Cerbetica"
+				"tall"			"20"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -971,7 +525,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -982,7 +536,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -993,7 +547,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -1004,7 +558,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -1015,18 +569,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
 		"HudFontSmallishBold"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -1037,7 +591,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -1048,7 +602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -1060,8 +614,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"name"			"Cerbetica"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1071,8 +625,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"name"			"Cerbetica"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1083,42 +637,42 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"name"			"Cerbetica"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"PerformanceModeSmall"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"4"
+				"name"			"Cerbetica"
+				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-		
+
 		"StorePromotionsTitle"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-		
+
 		"FontCartPrice"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"16"
 				//"weight"		"500"
 				"additive"		"0"
@@ -1129,8 +683,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"9"
+				"name"			"Cerbetica"
+				"tall"			"10"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1140,8 +694,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"9"
+				"name"			"Cerbetica"
+				"tall"			"10"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1151,7 +705,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"6"
 				"weight"		"0"
 				"additive"		"0"
@@ -1162,27 +716,27 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"TextTooltipFont"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"name"			"Cerbetica"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
-		GameUIButtons
+
+		"GameUIButtons"
 		{
 			"1"	//[$X360]
 			{
@@ -1192,7 +746,7 @@ Scheme
 				"scaley"		"0.5"
 			}
 		}
-		GameUIButtonsSmall
+		"GameUIButtonsSmall"
 		{
 			"1"	[$X360]
 			{
@@ -1202,7 +756,7 @@ Scheme
 				"scaley"		"0.5"
 			}
 		}
-		GameUIButtonsSmallest
+		"GameUIButtonsSmallest"
 		{
 			"1"	[$X360]
 			{
@@ -1212,7 +766,7 @@ Scheme
 				"scaley"		"0.4"
 			}
 		}
-		GameUIButtonsSteamController
+		"GameUIButtonsSteamController"
 		{
 			"1"
 			{
@@ -1222,7 +776,7 @@ Scheme
 				"scaley"		"0.5"
 			}
 		}
-		GameUIButtonsSteamControllerSmall
+		"GameUIButtonsSteamControllerSmall"
 		{
 			"1"
 			{
@@ -1232,7 +786,7 @@ Scheme
 				"scaley"		"0.25"
 			}
 		}
-		GameUIButtonsSteamControllerSmallest
+		"GameUIButtonsSteamControllerSmallest"
 		{
 			"1"
 			{
@@ -1246,26 +800,26 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudClassHealth"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"SpectatorKeyHints"
 		{
 			"1"
@@ -1277,7 +831,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"ClockSubText"
 		{
 			"1"
@@ -1311,12 +865,12 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudSelectionText"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"15"
 				"weight"		"700"
 				"antialias" 	"1"
@@ -1326,7 +880,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"15"
 				"weight"		"700"
 				"antialias" 	"1"
@@ -1336,7 +890,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -1345,7 +899,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"21"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -1354,7 +908,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"weight"		"1000"
 				"antialias" 	"1"
@@ -1362,8 +916,8 @@ Scheme
 				"range"			"0x0000 0x017F"
 			}
 		}
-		
-		DebugOverlay
+
+		"DebugOverlay"
 		{
 			"1"
 			{
@@ -1374,8 +928,8 @@ Scheme
 				"range"			"0x0000 0x017F"
 			}
 		}
-		
-		TFTypeDeath
+
+		"TFTypeDeath"
 		{
 			"1"
 			{
@@ -1386,8 +940,8 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
-		Icons
+
+		"Icons"
 		{
 			"1"
 			 {
@@ -1398,7 +952,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"BetaFont"
 		{
 			"1"
@@ -1411,8 +965,8 @@ Scheme
 				"additive"		"0"
 			}
 		}
-		
-		HudNumbers
+
+		"HudNumbers"
 		{
 			"1"
 			{
@@ -1431,12 +985,12 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"CloseCaption_Normal"
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1447,7 +1001,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1459,7 +1013,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1470,7 +1024,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1482,14 +1036,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica"
 				"tall"			"16"
 				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
 			}
 		}
-		
+
 		"Marlett"
 		{
 			"1"
@@ -1512,12 +1066,12 @@ Scheme
 				"range"			"0x0000 0x007F"
 			}
 		}
-		
+
 		"MenuMainTitle"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1527,8 +1081,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"name"			"Cerbetica"
+				"tall"			"12"
 				"antialias" 	"1"
 				"weight"		"500"
 			}
@@ -1537,13 +1091,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"antialias" 	"1"
 				"weight"		"500"
 			}
 		}
-		
+
 		"GoalText"
 		{
 			"1"
@@ -1555,12 +1109,12 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"ChalkboardTitle"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"28"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
@@ -1571,7 +1125,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"40"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
@@ -1582,7 +1136,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"antialias" 	"1"
 				"custom"		"1" [$OSX]
@@ -1593,7 +1147,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"antialias"		"1"
@@ -1601,7 +1155,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		
+
 		"ScoreboardSmallest"
 		{
 			"1"
@@ -1617,8 +1171,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"8"
+				"name"			"Cerbetica"
+				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1628,7 +1182,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1639,7 +1193,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1651,7 +1205,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1663,7 +1217,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1675,7 +1229,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1687,7 +1241,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1699,7 +1253,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"34"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1722,7 +1276,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"52"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1731,7 +1285,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"72"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1740,7 +1294,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"100"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1749,7 +1303,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"140"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1758,7 +1312,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"180"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1766,12 +1320,12 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"MatchSummaryTeamScores"
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica"
 				"tall"			"36"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1783,7 +1337,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1794,31 +1348,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"CompMatchStartTeamNames"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"ControlPointTimer"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1829,26 +1383,26 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"7"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"Link"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"TargetID"
 		{
 			"1"
@@ -1892,7 +1446,7 @@ Scheme
 				"dropshadow"	"0"
 			}
 		}
-		
+
 		"ChatFont"
 		{
 			"1"
@@ -1979,8 +1533,8 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
-		MenuSmallestFont
+
+		"MenuSmallestFont"
 		{
 			"1"
 			{
@@ -1991,23 +1545,23 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		MenuSmallFont
+		"MenuSmallFont"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
 				"antialias"		"1"
 			}
 		}
-		
-		CapPlayerFont
+
+		"CapPlayerFont"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -2015,20 +1569,20 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		CapPlayerFontSmall
+		"CapPlayerFontSmall"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"8"
+				"name"			"Cerbetica"
+				"tall"			"10"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
 				"TextColor"		"Black"
 				"antialias" 	"1"
 			}
 		}
-		
-		TFFontSmall
+
+		"TFFontSmall"
 		{
 			"1"
 			{
@@ -2039,7 +1593,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		TFFontMedium
+		"TFFontMedium"
 		{
 			"1"
 			{
@@ -2050,84 +1604,84 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
-		InstructionalText
+
+		"InstructionalText"
 		{
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"11"  	[!$OSX]
-				"tall"			"9"  	[$OSX]
+				"tall"			"12"	[!$OSX]
+				"tall"			"9"		[$OSX]
 				"weight"		"800"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
-		MatchmakingDialogTitle
+
+		"MatchmakingDialogTitle"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"36"
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogSessionOptionsTitle
+		"MatchmakingDialogSessionOptionsTitle"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"30"
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogMenuLarge
+		"MatchmakingDialogMenuLarge"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"28"
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogMenuBrowserHostname
+		"MatchmakingDialogMenuBrowserHostname"
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica"
 				"tall"			"22"
 				"weight"		"900"
 			}
 		}
-		MatchmakingDialogMenuBrowserDetails
+		"MatchmakingDialogMenuBrowserDetails"
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"900"
 			}
 		}
-		MatchmakingDialogMenuMedium
+		"MatchmakingDialogMenuMedium"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"22"
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogMenuMediumSmall
+		"MatchmakingDialogMenuMediumSmall"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogMenuSmall
+		"MatchmakingDialogMenuSmall"
 		{
 			"1"
 			{
@@ -2136,7 +1690,7 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		MatchmakingDialogMenuSmallest
+		"MatchmakingDialogMenuSmallest"
 		{
 			"1"
 			{
@@ -2145,8 +1699,8 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		
-		RankingDialogHeaders
+
+		"RankingDialogHeaders"
 		{
 			"1"
 			{
@@ -2155,12 +1709,12 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		
+
 		"TeamMenuBold"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -2171,37 +1725,37 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"name"			"Cerbetica"
+				"tall"			"12"
 				"weight"		"600"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"IntroMenuCaption"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"AchievementNotification"
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"900"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"ImportToolSmallestBold"
 		{
 			"1"
@@ -2224,19 +1778,19 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"SpectatorVerySmall"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"8"
+				"name"			"Cerbetica"
+				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-		
+
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
 		"DefaultVerySmallFallBack"
 		{
@@ -2268,13 +1822,13 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"ItemFontNameSmallest"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"8"
+				"name"			"Cerbetica"
+				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2284,8 +1838,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"10"
+				"name"			"Cerbetica"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2295,8 +1849,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"name"			"Cerbetica"
+				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2306,7 +1860,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -2317,8 +1871,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"8"
+				"name"			"Cerbetica"
+				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2328,8 +1882,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"8"
+				"name"			"Cerbetica"
+				"tall"			"10"
 				"antialias"		"1"
 				"weight"		"500"
 			}
@@ -2338,8 +1892,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"8"
+				"name"			"Cerbetica"
+				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2349,8 +1903,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"name"			"Cerbetica"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2360,31 +1914,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		"ItemMeterFontSmall"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"6"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		
+
 		"AchievementTracker_Name"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"9"
+				"name"			"Cerbetica"
+				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -2394,8 +1937,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"9"
+				"name"			"Cerbetica"
+				"tall"			"10"
 				"weight"		"500"
 				"blur"			"3"
 				"additive"		"1"
@@ -2406,14 +1949,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"7"
+				"name"			"Cerbetica"
+				"tall"			"10"
 				"weight"		"0"
 				"additive"		"1"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"QuestObjectiveTracker_Desc"
 		{
 			"1"
@@ -2447,7 +1990,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"ItemTrackerScore_InGame"
 		{
 			"1"
@@ -2458,7 +2001,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"QuestFlavorText"
 		{
 			"1"
@@ -2527,7 +2070,7 @@ Scheme
 				"tall"			"16"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"QuestStickyText"
@@ -2642,7 +2185,7 @@ Scheme
 				"tall"			"13"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"QuestLargeText_Merasmus"
@@ -2653,10 +2196,10 @@ Scheme
 				"tall"			"16"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
-		
+
 		"AdFont_ItemName"
 		{
 			"1"
@@ -2676,7 +2219,7 @@ Scheme
 				"tall"			"8"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"	 	"1"
+				"antialias"		"1"
 			}
 		}
 		"AdFont_PurchaseButton"
@@ -2689,7 +2232,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"TradeUp_Text"
 		{
 			"1"
@@ -2713,7 +2256,7 @@ Scheme
 				"italic"		"1"
 			}
 		}
-		
+
 		//////////////////// REPLAY FONTS //////////////////////////////
 		"ReplayVerySmall"
 		{
@@ -2765,8 +2308,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"name"			"Cerbetica"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2829,8 +2372,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"name"			"Cerbetica"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2840,7 +2383,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2851,7 +2394,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -2862,31 +2405,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"ReplayLarger"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		//////////////////// ECON FONTS //////////////////////////////
 		"EconFontSmall"
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2897,19 +2440,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		ControllerHintText
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"15"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -2917,25 +2460,25 @@ Scheme
 				"additive"		"0"
 			}
 		}
-		
+
 		"MMenuPlayListDesc"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"9"
+				"name"			"Cerbetica"
+				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"XPSource"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"name"			"Cerbetica"
+				"tall"			"12"
 				"weight"		"500"
 				"antialias" 	"1"
 				"custom"		"1"
@@ -2945,20 +2488,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"name"			"Cerbetica"
+				"tall"			"12"
 				"weight"		"500"
 				"blur"			"3"
 				"additive"		"1"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"MapVotesPercentage"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -2966,19 +2509,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
-		"TF2ComboBox"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"11"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		
+
 		"QuestMap_Small_Blur"
 		{
 			"1"
@@ -3036,13 +2567,19 @@ Scheme
 			}
 		}
 	}
-	
+
 	BitmapFontFiles
 	{
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
-	
+
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//
+	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	// Range specificies the characters to be used from the custom font before falling back to a default font
+	// characters in the range not specificed in the font will appear empty
+	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
@@ -3060,7 +2597,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"4" 
+		"4"
 		{
 			"font"	"resource/TF2Secondary.ttf"
 			"name"	"TF2 Secondary"
@@ -3073,7 +2610,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"5" 
+		"5"
 		{
 			"font"	"resource/TF2Professor.ttf"
 			"name"	"TF2 Professor"
@@ -3085,8 +2622,8 @@ Scheme
 			{
 				"range" "0x0000 0x00FF"
 			}
-		}	
-		"6" 
+		}
+		"6"
 		{
 			"font"	"resource/TF2Build.ttf"
 			"name"	"TF2 Build"
@@ -3105,13 +2642,74 @@ Scheme
 		}
 		"7"
 		{
-			"font"	"resource/fonts/Cerbetica_bold.ttf"
-			"name"	"Cerbetica Bold"
+			"font"	"resource/ocra.ttf"
+			"name"	"ocra"
+			"turkish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"german"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"french"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x007E"
+			}
 		}
 		"8"
 		{
-			"font"	"resource/fonts/Cerbetica_edited.ttf"
-			"name"	"Cerbetica_edited"
+			"font"	"resource/fonts/Cerbetica.otf"
+			"name"	"Cerbetica"
+		}
+		"9"
+		{
+			"font"	"resource/fonts/Cerbetica_bold.otf"
+			"name"	"Cerbetica_bold"
 		}
 	}
 }

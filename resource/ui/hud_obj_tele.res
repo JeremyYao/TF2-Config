@@ -6,15 +6,15 @@
 		"fieldName"		"BuildingStatusItem"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"150"
-		"tall"			"31"
+		"wide"			"140"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
@@ -24,22 +24,22 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"Icon_Teleport"
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"		"Icon"
-		"xpos"			"24"
-		"ypos"			"1"
-		"wide"			"28"
-		"tall"			"28"
+		"fieldName"		"Icon_Teleport"
+		"xpos"			"15"
+		"ypos"			"3"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_tele_entrance"
 		"iconColor"		"White"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -47,18 +47,18 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"31"
+		"tall"			"30"
 		"visible"		"1"
 
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"Cerbetica10"
+			"font"			"HudFontSmallest"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
-			"tall"			"31"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -69,7 +69,7 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -77,7 +77,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"31"
+		"tall"			"30"
 		"visible"		"0"
 
 		"Icon_Upgrade_1"
@@ -85,13 +85,13 @@
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_1"
 			"xpos"			"46"
-			"ypos"			"4"
+			"ypos"			"20"
 			"zpos"			"1"
-			"wide"			"8"
-			"tall"			"8"
+			"wide"			"10"
+			"tall"			"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"White"
 		}
@@ -101,13 +101,13 @@
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_2"
 			"xpos"			"46"
-			"ypos"			"4"
+			"ypos"			"20"
 			"zpos"			"1"
-			"wide"			"8"
-			"tall"			"8"
+			"wide"			"10"
+			"tall"			"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"White"
 		}
@@ -116,18 +116,18 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_3"
-			"xpos"			"46"
-			"ypos"			"4"
+			"xpos"			"45"
+			"ypos"			"15"
 			"zpos"			"1"
-			"wide"			"8"
-			"tall"			"8"
+			"wide"			"10"
+			"tall"			"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"White"
 		}
-		
+
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -135,10 +135,10 @@
 			"xpos"			"113"
 			"ypos"			"0"
 			"wide"			"34"
-			"tall"			"31"
+			"tall"			"30"
 			"visible"		"1"
-			"enabled"		"1"	
-			"icon"			"obj_status_alert_background"
+			"enabled"		"1"
+			"icon"			"obj_status_alert_background_tall"
 		}
 
 		"WrenchIcon"
@@ -146,42 +146,42 @@
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
 			"xpos"			"121"
-			"ypos"			"5"
+			"ypos"			"15"
 			"zpos"			"1"
 			"wide"			"19"
 			"tall"			"19"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"White"
 		}
-		
+
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
 			"xpos"			"117"
-			"ypos"			"3"
+			"ypos"			"15"
 			"zpos"			"1"
 			"wide"			"25"
 			"tall"			"25"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"White"
 		}
 
 		"Health"
-		{	
+		{
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"13"
+			"xpos"			"0"
 			"ypos"			"3"
 			"wide"			"8"
-			"tall"			"24"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -198,14 +198,14 @@
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"100"
-			"tall"			"31"
+			"tall"			"30"
 			"visible"		"0"
 
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"HudFontSmallest"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -219,9 +219,9 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-			
+
 			"BuildingProgress"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
@@ -238,7 +238,7 @@
 				"brighttext"	"0"
 			}
 		}
-	
+
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -246,9 +246,9 @@
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"100"
-			"tall"			"31"
+			"tall"			"30"
 			"visible"		"0"
-			
+
 			"ChargingPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -258,7 +258,7 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-				
+
 				"RechargeLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -277,16 +277,16 @@
 					"dulltext"		"0"
 					"brighttext"	"0"
 				}
-				
+
 				"Recharge"
-				{	
+				{
 					"ControlName"	"ContinuousProgressBar"
 					"fieldName"		"Recharge"
 					"font"			"Default"
-					"xpos"			"0"
-					"ypos"			"11"
-					"wide"			"50"
-					"tall"			"5"
+					"xpos"			"12"
+					"ypos"			"7"
+					"wide"			"38"
+					"tall"			"10"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -296,7 +296,7 @@
 					"brighttext"	"0"
 				}
 			}
-			
+
 			"FullyChargedPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -306,9 +306,9 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-				
+
 				"TimesUsedLabel"
-				{	
+				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
 					"font"			"DefaultVerySmall"
@@ -327,7 +327,7 @@
 				}
 			}
 			"UpgradeLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"UpgradeLabel"
 				"font"			"DefaultVerySmall"
@@ -344,16 +344,16 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-			
+
 			"Upgrade"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"
-				"xpos"			"0"
-				"ypos"			"24"
-				"wide"			"50"
-				"tall"			"2"
+				"xpos"			"12"
+				"ypos"			"10"
+				"wide"			"38"
+				"tall"			"10"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"

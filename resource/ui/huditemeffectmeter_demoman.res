@@ -14,7 +14,7 @@
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -33,10 +33,10 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Cerbetica11"
-		"font_minmode"			"Cerbetica8"
+		"font"					"ItemFontAttribLarge"
+		"font_minmode"			"Cerbetica10"
 	}
-	
+
 	"ItemEffectMeter"
 	{
 		"ControlName"			"ContinuousProgressBar"
@@ -55,13 +55,13 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"0"
-		"ypos"					"10"
+		"ypos"					"12"
 		"ypos_minmode"			"8"
 		"zpos"					"2"
 		"wide"					"40"
@@ -74,10 +74,10 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CerbeticaBold28"
-		"font_minmode"			"CerbeticaBold16"
+		"font"					"Cerbetica28"
+		"font_minmode"			"Cerbetica16"
 	}
-	
+
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -95,12 +95,9 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CerbeticaBold28"
-		"font_minmode"			"CerbeticaBold16"
+		"font"					"Cerbetica28"
+		"font_minmode"			"Cerbetica16"
 		"fgcolor"				"TransparentBlack"
-		
 		"pin_to_sibling"		"ItemEffectMeterCount"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

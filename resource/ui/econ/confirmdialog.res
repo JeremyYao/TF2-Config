@@ -20,25 +20,25 @@
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"DarkGrey"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TitleLabel"
-		"font"					"Cerbetica32"
+		"font"					"HudFontMediumBold"
 		"labelText"				"#ConfirmTitle"
 		"textAlignment"			"center"
 		"xpos"					"0"
 		"ypos"					"15"
 		"zpos"					"1"
 		"wide"					"324"
-		"tall"					"23"
+		"tall"					"25"
 		"autoResize"			"1"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -49,14 +49,15 @@
 		"xpos"					"40"
 		"ypos"					"50"
 		"zpos"					"1"
-		"wide"					"324"
+		"wide"					"244"
 		"tall"					"170"
-		"autoResize"			"1"
+		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
+		"centerwrap"			"1"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"			"CExButton"
@@ -81,7 +82,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ConfirmButton"
 	{
 		"ControlName"			"CExButton"

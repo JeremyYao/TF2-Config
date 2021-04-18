@@ -5,7 +5,7 @@
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-327"
+		"xpos"				"c-267"
 		"xpos_minmode"		"c-250"
 		"ypos"				"r72"
 		"ypos_minmode"		"r146"
@@ -14,7 +14,7 @@
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
 	}
-	
+
 	"PowerupBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -26,7 +26,7 @@
 		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -44,34 +44,19 @@
 		"image"				"../hud/ico_powerup_critboost_red"
 		"scaleImage"		"1"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemEffectMeterLabel"
 		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"2"
-		"wide"				"80"
-		"tall"				"40"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"#TF_Ball"
-		"textAlignment"		"center"
-		"centerwrap"		"1"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"font"				"Cerbetica12"
 	}
-	
+
 	"CanteenLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CanteenLabel"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 		"fgcolor"			"TanLight"
 		"xpos"				"5"
 		"ypos"				"0"
@@ -83,7 +68,7 @@
 		"textAlignment"		"west"
 		"labelText"			"#TF_Spell_Athletic"
 	}
-	
+
 	"ItemEffectMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -102,7 +87,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"		"CExLabel"
@@ -120,6 +105,6 @@
 		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmallishBold"
 	}
 }

@@ -1,6 +1,6 @@
 "Resource/UI/HudMenuTauntSelection.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -11,11 +11,11 @@
 		"tall"			"170"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_bg"
 		"iconColor"		"White"
 	}
-	
+
 	"Divider"
 	{
 		"ControlName"	"ImagePanel"
@@ -29,12 +29,12 @@
 		"fieldName"		"IcoReelIcon"
 		"xpos"			"9999"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"CerbeticaBold32"
+		"font"			"Cerbetica28"
 		"xpos"			"10"
 		"ypos"			"0"
 		"zpos"			"3"
@@ -49,12 +49,12 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
-	"TitleLabelDropshadow"
-	{	
+
+	"TitleLabelShadow"
+	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabelDropshadow"
-		"font"			"CerbeticaBold32"
+		"fieldName"		"TitleLabelShadow"
+		"font"			"Cerbetica28"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -69,14 +69,11 @@
 		"textAlignment"	"Left"
 		"dulltext"		"1"
 		"brighttext"	"0"
-
-		"pin_to_sibling"		"TitleLabel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling"	"TitleLabel"
 	}
 
 	"WeaponTauntLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponTauntLabel"
 		"font"			"Default"
@@ -94,9 +91,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"Default"
@@ -129,20 +126,20 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -151,30 +148,30 @@
 		}
 	}
 
-	"NumberBg1"	
+	"NumberBg1"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg1"
-		"xpos"			"34"
-		"ypos"			"140"
+		"xpos"			"32"
+		"ypos"			"100"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"White"
 	}
-	
+
 	"NumberLabel1"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel1"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TanLight"
 		"xpos"			"34"
-		"ypos"			"95"
+		"ypos"			"87"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -187,12 +184,12 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
-	"NumberLabel1BG"
-	{	
+
+	"NumberLabel1Shadow"
+	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel1BG"
-		"font"			"CerbeticaBold20"
+		"fieldName"		"NumberLabel1Shadow"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -207,7 +204,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		
+
 		"pin_to_sibling"		"NumberLabel1"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -234,13 +231,13 @@
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -254,25 +251,25 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg2"
 		"xpos"			"87"
-		"ypos"			"140"
+		"ypos"			"100"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"White"
 	}
-	
+
 	"NumberLabel2"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel2"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TanLight"
 		"xpos"			"89"
-		"ypos"			"95"
+		"ypos"			"87"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -286,11 +283,11 @@
 		"brighttext"	"0"
 	}
 
-	"NumberLabel2BG"
-	{	
+	"NumberLabel2Shadow"
+	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel2BG"
-		"font"			"CerbeticaBold20"
+		"fieldName"		"NumberLabel2Shadow"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -305,7 +302,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		
+
 		"pin_to_sibling"		"NumberLabel2"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -325,20 +322,20 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -346,31 +343,31 @@
 			"allow_rot"				"0"
 		}
 	}
-	
+
 	"NumberBg3"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg3"
 		"xpos"			"142"
-		"ypos"			"140"
+		"ypos"			"100"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"White"
 	}
-	
+
 	"NumberLabel3"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel3"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TanLight"
 		"xpos"			"144"
-		"ypos"			"95"
+		"ypos"			"87"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -383,13 +380,12 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
-	
-	"NumberLabel3BG"
-	{	
+
+	"NumberLabel3Shadow"
+	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel3BG"
-		"font"			"CerbeticaBold20"
+		"fieldName"		"NumberLabel3Shadow"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -404,7 +400,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		
+
 		"pin_to_sibling"		"NumberLabel3"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -424,20 +420,20 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -451,25 +447,25 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg4"
 		"xpos"			"197"
-		"ypos"			"140"
+		"ypos"			"100"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"White"
 	}
-	
+
 	"NumberLabel4"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel4"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TanLight"
 		"xpos"			"200"
-		"ypos"			"95"
+		"ypos"			"87"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -482,12 +478,12 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
-	"NumberLabel4BG"
-	{	
+
+	"NumberLabel4Shadow"
+	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel4BG"
-		"font"			"CerbeticaBold20"
+		"fieldName"		"NumberLabel4Shadow"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -502,7 +498,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		
+
 		"pin_to_sibling"		"NumberLabel4"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -522,20 +518,20 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -549,25 +545,25 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg5"
 		"xpos"			"252"
-		"ypos"			"140"
+		"ypos"			"100"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"White"
 	}
-	
+
 	"NumberLabel5"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel5"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TanLight"
 		"xpos"			"256"
-		"ypos"			"95"
+		"ypos"			"87"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -581,11 +577,11 @@
 		"brighttext"	"0"
 	}
 
-	"NumberLabel5BG"
-	{	
+	"NumberLabel5Shadow"
+	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel5BG"
-		"font"			"CerbeticaBold20"
+		"fieldName"		"NumberLabel5Shadow"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -600,12 +596,12 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		
+
 		"pin_to_sibling"		"NumberLabel5"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"TauntModelPanel6"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -620,20 +616,20 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -647,25 +643,25 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg6"
 		"xpos"			"307"
-		"ypos"			"140"
+		"ypos"			"100"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"White"
 	}
-	
+
 	"NumberLabel6"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel6"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TanLight"
 		"xpos"			"310"
-		"ypos"			"95"
+		"ypos"			"87"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -679,11 +675,11 @@
 		"brighttext"	"0"
 	}
 
-	"NumberLabel6BG"
-	{	
+	"NumberLabel6Shadow"
+	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel6BG"
-		"font"			"CerbeticaBold20"
+		"fieldName"		"NumberLabel6Shadow"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -698,7 +694,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		
+
 		"pin_to_sibling"		"NumberLabel6"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -718,20 +714,20 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -745,25 +741,25 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg7"
 		"xpos"			"362"
-		"ypos"			"140"
+		"ypos"			"100"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"White"
 	}
-	
+
 	"NumberLabel7"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel7"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TanLight"
 		"xpos"			"364"
-		"ypos"			"95"
+		"ypos"			"87"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -777,11 +773,11 @@
 		"brighttext"	"0"
 	}
 
-	"NumberLabel7BG"
-	{	
+	"NumberLabel7Shadow"
+	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel7BG"
-		"font"			"CerbeticaBold20"
+		"fieldName"		"NumberLabel7Shadow"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
 		"ypos"			"-2"
 		"xpos"			"-2"
@@ -796,7 +792,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		
+
 		"pin_to_sibling"		"NumberLabel7"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -816,20 +812,20 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-			
+
 		"model_ypos"	"5"
 		"model_tall"	"38"
 		"text_ypos"		"46"
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-			
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -843,25 +839,25 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg8"
 		"xpos"			"417"
-		"ypos"			"140"
+		"ypos"			"100"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"White"
 	}
-	
+
 	"NumberLabel8"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel8"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TanLight"
 		"xpos"			"420"
-		"ypos"			"95"
+		"ypos"			"87"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -874,12 +870,12 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
-	"NumberLabel8BG"
+
+	"NumberLabel8Shadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel8BG"
-		"font"			"CerbeticaBold20"
+		"fieldName"		"NumberLabel8Shadow"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -894,12 +890,12 @@
 		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		
+
 		"pin_to_sibling"		"NumberLabel8"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"EditablePanel"

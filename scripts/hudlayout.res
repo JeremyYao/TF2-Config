@@ -1,653 +1,27 @@
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------
+	// HUD CROSSHAIR
+	//--------------------------------------------------------------
 	// Set visible and enabled to 1 to use.
 	// Change xpos and ypos values if not perfectly centered.
+	// Change labelText to the corresponding crosshair in TF2Crosshairs.png.
 	//--------------------------------------------------------------
-	// RAYSHUD CROSSHAIRS
-	//--------------------------------------------------------------
-	"RaysCrosshair"
+	"CustomCrosshair"
 	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"RaysCrosshair"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-103"
-		"ypos"			"c-100"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"Crosshairs14"
-		"labelText"		"3"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	//--------------------------------------------------------------
-	// KONRWINGS
-	//--------------------------------------------------------------
-	"KonrWings"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"KonrWings"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-108"
-		"ypos"			"c-99"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"KonrWings24"
-		"labelText"		"i"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	//--------------------------------------------------------------
-	// KNUCKLESCROSSES
-	//--------------------------------------------------------------
-	"KnucklesCrosses"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"KnucklesCrosses"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"0"
-		"xpos" 		 	"c-25"
-		"ypos" 		 	"c-24"
-		"wide" 		 	"50"
-		"tall" 		 	"50"
-		"font"			"KnucklesCrosses26"
-		"labelText"		"i"
-		"textAlignment"	"center"
-		"fgcolor" 		"Crosshair"
-	}
-	
-	//--------------------------------------------------------------
-	// CROSSHAIRS
-	//--------------------------------------------------------------
-	
-	"BasicCross"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"BasicCross"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-102"
-		"ypos"			"c-99"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"Crosshairs26"
-		"labelText"		"2"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	"BasicCrossLarge"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"BasicCrossLarge"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-102"
-		"ypos"			"c-98"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"Crosshairs32"
-		"labelText"		"2"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	"BasicCrossSmall"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"BasicCrossSmall"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-101"
-		"ypos"			"c-99"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"Crosshairs18"
-		"labelText"		"2"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	"BasicDot"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"BasicDot"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-103"
-		"ypos"			"c-100"
-		"wide"			"201"
-		"tall"			"201"
-		"font"			"Crosshairs24"
-		"labelText"		"3"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	"CircleDot"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"CircleDot"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-100"
-		"ypos"			"c-96"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"Crosshairs34"
-		"labelText"		"8"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	"OpenCross"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"OpenCross"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-85"
-		"ypos"			"c-100"
-		"wide"			"199"
-		"tall"			"200"
-		"font"			"Crosshairs24"
-		"labelText"		"i"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	"OpenCrossDot"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"OpenCrossDot"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-85"
-		"ypos"			"c-100"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"Crosshairs24"
-		"labelText"		"h"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	"ScatterSpread"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"ScatterSpread"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-99"
-		"ypos"			"c-99"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"Crosshairs32"
-		"labelText"		"0"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	"ThinCircle"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"ThinCircle"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-100"
-		"ypos"			"c-96"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"Crosshairs34"
-		"labelText"		"9"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	"Wings"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"Wings"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-100"
-		"ypos"			"c-97"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"Crosshairs34"
-		"labelText"		"d"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	"WingsPlus"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"WingsPlus"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-100"
-		"ypos"			"c-97"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"Crosshairs34"
-		"labelText"		"c"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	"WingsSmall"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"WingsSmall"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-100"
-		"ypos"			"c-97"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"Crosshairs34"
-		"labelText"		"g"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	"WingsSmallDot"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"WingsSmallDot"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-100"
-		"ypos"			"c-97"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"Crosshairs34"
-		"labelText"		"f"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	//--------------------------------------------------------------
-	// 16:9 CROSSHAIRS (Enable all for best result)
-	//--------------------------------------------------------------
-	"16x9Crosshair_vertical1"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"427"
-		"ypos"			"75"
-		"zpos"			"-5"
-		"wide"			"1"
-		"tall"			"154"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"50"
-	}
-	
-	"16x9Crosshair_horizontal1"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"40"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"374"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"50"
-	}
-	
-	"16x9Crosshair_horizontal2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"439"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"374"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"50"
-	}
-	
-	"16x9dark_top"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"426"
-		"ypos"			"190"
-		"zpos"			"-5"
-		"wide"			""
-		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"100"
-	}
-	"16x9dark_bottom"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"427"
-		"ypos"			"252"
-		"zpos"			"-5"
-		"wide"			"1"
-		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"150"
-	}
-	"16x9dark_left"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"365"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"50"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"100"
-	}
-	
-	"16x9dark_right"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"439"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"50"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"100"
-	}
-	
-	//--------------------------------------------------------------
-	// 16:10 CROSSHAIRS (Enable all for best result)
-	//--------------------------------------------------------------
-	"16x10Crosshair_vertical1"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"384"
-		"ypos"			"55"
-		"zpos"			"-5"
-		"wide"			"1"
-		"tall"			"170"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha"			"50"
-	}
-	
-	"16x10Crosshair_horizontal1"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"35"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"330"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"50"
-	}
-	
-	"16x10Crosshair_horizontal2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"403"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"330"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"50"
-	}
-	
-	"16x10dark_top"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"384"
-		"ypos"			"187"
-		"zpos"			"-5"
-		"wide"			"1"
-		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"100"
-	}
-	
-	"16x10dark_bottom"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"384"
-		"ypos"			"254"
-		"zpos"			"-5"
-		"wide"			"1"
-		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"150"
-	}
-	
-	"16x10dark_left"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"315"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"50"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"100"
-	}
-	
-	"16x10dark_right"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"403"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"50"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"100"
-	}
-	
-	//--------------------------------------------------------------
-	// 4:3 CROSSHAIRS (Enable all for best result)
-	//--------------------------------------------------------------
-	"4x3Crosshair_vertical1"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"319"
-		"ypos"			"70"
-		"zpos"			"-5"
-		"wide"			"1"
-		"tall"			"154"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha"			"50"
-	}
-	
-	"4x3Crosshair_horizontal1"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"10"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"290"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"50"
-	}
-	
-	"4x3Crosshair_horizontal2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"340"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"290"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"50"
-	}
-	
-	"4x3dark_top"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"319"
-		"ypos"			"186"
-		"zpos"			"-5"
-		"wide"			"1"
-		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"100"
-	}
-	
-	"4x3dark_bottom"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"319"
-		"ypos"			"255"
-		"zpos"			"-5"
-		"wide"			"1"
-		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"150"
-	}
-	
-	"4x3dark_left"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"250"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"50"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"100"
-	}
-	
-	"4x3dark_right"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"340"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"50"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 255 255 255"
-		"alpha" 		"100"
+		"visible"			"0"
+		"enabled"			"0"
+		"labelText"			"<"
+		"controlName"		"CExLabel"
+		"fieldName"			"CustomCrosshair"
+		"zpos"				"0"
+		"xpos"				"cs-0.4999"
+		"ypos"				"cs-0.4990"
+		"wide"				"f0"
+		"tall"				"f0"
+		"font"				"Size:18 | Outline:OFF"
+		"textAlignment"		"center"
+		"fgcolor"			"Crosshair"
 	}
 	//--------------------------------------------------------------
 	// TRANSPARENT VIEWMODEL
@@ -669,32 +43,32 @@
 		"scaleImage"		"1"
 	}
 	//--------------------------------------------------------------
-	
-	HudPlayerStatus
+
+	"HudPlayerStatus"
 	{
 		"fieldName"			"HudPlayerStatus"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"-15"
-		"ypos"				"1"
+		"xpos"				"0"
+		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
 	}
-	
-	HudWeaponAmmo
+
+	"HudWeaponAmmo"
 	{
 		"fieldName"			"HudWeaponAmmo"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c80"
+		"xpos"				"c70"
 		"ypos"				"c70"
-		"xpos_minmode"		"c40"
+		"xpos_minmode"		"c25"
 		"ypos_minmode"		"c30"
-		"wide"				"100"
+		"wide"				"110"
 		"tall"				"50"
 	}
-	
-	HudObjectiveStatus
+
+	"HudObjectiveStatus"
 	{
 		"fieldName" 		"HudObjectiveStatus"
 		"visible" 			"1"
@@ -702,25 +76,25 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
-		"tall"				"480"
+		"tall"				"f0"
 	}
-	
-	HudKothTimeStatus
+
+	"HudKothTimeStatus"
 	{
 		"fieldName" 		"HudKothTimeStatus"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-75"
+		"xpos"				"c-65"
 		"ypos"				"0"
 		"zpos"				"5"
 		"wide"				"200"
 		"tall"				"60"
-		
-		"blue_active_xpos"	"25"
-		"red_active_xpos"	"75"
+
+		"blue_active_xpos"	"15"
+		"red_active_xpos"	"65"
 	}
-	
-	HudItemEffectMeter
+
+	"HudItemEffectMeter"
 	{
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
@@ -732,8 +106,8 @@
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
 	}
-	
-	HudMedicCharge
+
+	"HudMedicCharge"
 	{
 		"fieldName"			"HudMedicCharge"
 		"visible"			"1"
@@ -743,21 +117,22 @@
 		"wide"				"500"
 		"tall"				"500"
 	}
-	
-	HudDemomanCharge
+
+	"HudDemomanCharge"
 	{
-		"fieldName"			"HudItemEffectMeter"
+		"fieldName"			"HudDemomanCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-75"
-		"ypos"				"c25"
-		"wide"				"200"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"f0"
 		"tall"				"500"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
 	}
-	
-	HudBowCharge
+
+	"HudBowCharge"
 	{
 		"fieldName"			"HudBowCharge"
 		"visible"			"1"
@@ -773,8 +148,8 @@
 		"MeterBG"			"Gray"
 		"alpha"				"0"
 	}
-	
-	HudFlameRocketCharge
+
+	"HudFlameRocketCharge"
 	{
 		"fieldName"			"HudFlameRocketCharge"
 		"visible"			"1"
@@ -790,8 +165,8 @@
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
 	}
-	
-	HudBossHealth
+
+	"HudBossHealth"
 	{
 		"fieldName"			"HudBossHealth"
 		"visible"			"1"
@@ -804,8 +179,8 @@
 		"MeterFG"			"Red"
 		"MeterBG"			"Gray"
 	}
-	
-	HudWeaponSelection
+
+	"HudWeaponSelection"
 	{
 		"fieldName" 			"HudWeaponSelection"
 		"xpos"					"0"
@@ -839,22 +214,23 @@
 		"SelectionNumberFg"		"200 187 161 255"
 		"NumberFont" 			"HudSelectionText"
 	}
-	
-	CHudAccountPanel
+
+	"CHudAccountPanel"
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c200"
-		"xpos_minmode"			"c135"
-		"ypos"					"c15"
-		"ypos_minmode"			"c17"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos_minmode"			"c130"
+		"ypos"					"c130"
+		"zpos"					"0"
+		"ypos_minmode"			"c83"
+		"wide"					"55"
+		"tall"  				"70"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 	}
-	
-	CHealthAccountPanel
+
+	"CHealthAccountPanel"
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-280"
@@ -869,8 +245,8 @@
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 	}
-	
-	CDamageAccountPanel
+
+	"CDamageAccountPanel"
 	{
 		"fieldName"				"CDamageAccountPanel"
 		"xpos"					"0"
@@ -881,59 +257,71 @@
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 	}
-	
-	DisguiseStatus
+
+	"DisguiseStatus"
 	{
 		"fieldName" 			"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"20"
-		"ypos"					"r50"
+		"xpos"					"15"
+		"ypos"					"r40"
 		"wide"					"150"
 		"tall"					"30"
 	}
-	
-	CMainTargetID
+
+	"CMainTargetID"
 	{
 		"fieldName" 			"CMainTargetID"
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-100"
-		"ypos"					"246"
+		"ypos"					"250"
 		"ypos_minmode"			"c80"
 		"wide"					"600"
 		"tall"					"50"
 		"priority"				"100"
 	}
-	
-	CSpectatorTargetID
+
+	"CSpectatorTargetID"
 	{
 		"fieldName" 			"CSpectatorTargetID"
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-100"
-		"ypos"					"c100"
+		"ypos"					"c120"
 		"wide"					"600"
 		"tall"					"50"
 		"priority"				"40"
 		"x_offset" 				"20"
 		"y_offset" 				"20"
 	}
-	
-	CSecondaryTargetID
+
+	"CSecondaryTargetID"
 	{
 		"fieldName" 			"CSecondaryTargetID"
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-100"
-		"ypos"					"c130"
+		"ypos"					"c120"
 		"ypos_minmode"			"c120"
 		"wide"					"600"
 		"tall"					"50"
 		"priority"				"35"
 	}
 	
-	BuildingStatus_Spy
+	"BuildingStatusAnchor"
+	{
+		"fieldName"				"BuildingStatusAnchor"
+		"ControlName"			"EditablePanel"
+		"visible"				"0"
+		"enabled"				"1"
+		"xpos"					"5"
+		"ypos"					"c-100"
+		"wide"					"640"
+		"tall"					"480"
+	}
+	
+	"BuildingStatus_Spy"
 	{
 		"fieldName" 			"BuildingStatus_Spy"
 		"visible"				"1"
@@ -943,9 +331,13 @@
 		"wide"					"640"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
+		
+		"pin_to_sibling"		"BuildingStatusAnchor"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 	}
-	
-	BuildingStatus_Engineer
+
+	"BuildingStatus_Engineer"
 	{
 		"fieldName" 			"BuildingStatus_Engineer"
 		"visible"				"1"
@@ -955,9 +347,13 @@
 		"wide"					"640"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
+		
+		"pin_to_sibling"		"BuildingStatusAnchor"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 	}
-	
-	HudMannVsMachineStatus
+
+	"HudMannVsMachineStatus"
 	{
 		"fieldName" 			"HudMannVsMachineStatus"
 		"visible"				"1"
@@ -969,8 +365,8 @@
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
 	}
-	
-	HudProgressBar
+
+	"HudProgressBar"
 	{
 		"fieldName" 			"HudProgressBar"
 		"xpos"					"c-150"
@@ -982,13 +378,13 @@
 		"BorderThickness" 		"1"
 		"PaintBackgroundType"	"2"
 	}
-	
-	HudRoundTimer
+
+	"HudRoundTimer"
 	{
 		"fieldName"				"HudRoundTimer"
-		"xpos"					"c-20"
+		"xpos"					"0"
 		"ypos"					"440"
-		"wide"					"120"
+		"wide"					"f0"
 		"tall"  				"40"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -999,8 +395,8 @@
 		"digit_xpos"			"34"
 		"digit_ypos"			"2"
 	}
-	
-	HudScenarioIcon 
+
+	"HudScenarioIcon"
 	{
 		"fieldName" 			"HudScenarioIcon"
 		"xpos"					"c110"
@@ -1012,8 +408,8 @@
 		"PaintBackgroundType"	"2"
 		"IconColor"				"Hostage_Yellow"
 	}
-	
-	HudFlashlight
+
+	"HudFlashlight"
 	{
 		"fieldName" 			"HudFlashlight"
 		"visible" 				"1"
@@ -1027,22 +423,22 @@
 		"TextColor"				"255 170 0 220"
 		"PaintBackgroundType"	"2"
 	}
-	
-	HudDamageIndicator
+
+	"HudDamageIndicator"
 	{
 		"fieldName"				"HudDamageIndicator"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"MinimumWidth" 			"10"
-		"MaximumWidth"			"10"
+		"MinimumWidth" 			"15"
+		"MaximumWidth"			"15"
 		"StartRadius"			"80"
 		"EndRadius"				"80"
 		"MinimumHeight"			"30"
 		"MaximumHeight"			"60"
 		"MinimumTime"			"1"
 	}
-	
-	HudCommentary
+
+	"HudCommentary"
 	{
 		"fieldName" 			"HudCommentary"
 		"xpos"					"c-190"
@@ -1068,8 +464,8 @@
 		"icon_height"			"40"
 		"use_script_bgcolor"	"1"
 	}
-	
-	HudZoom
+
+	"HudZoom"
 	{
 		"fieldName" 			"HudZoom"
 		"visible" 				"1"
@@ -1080,8 +476,8 @@
 		"DashHeight" 			"4"
 		"BorderThickness" 		"88"
 	}
-	
-	HudCrosshair
+
+	"HudCrosshair"
 	{
 		"fieldName" 			"HudCrosshair"
 		"visible" 				"1"
@@ -1089,32 +485,32 @@
 		"wide"	 				"640"
 		"tall"	 				"480"
 	}
-	
-	HudDeathNotice
+
+	"HudDeathNotice"
 	{
 		"fieldName" 			"HudDeathNotice"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"	 				"r592"
-		"ypos"	 				"20"
+		"ypos"	 				"25"
 		"wide"	 				"580"
 		"tall"	 				"468"
-		"MaxDeathNotices" 		"5"
+		"MaxDeathNotices"		"5"
 		"IconScale"				"0.35"
 		"LineHeight"			"14"
 		"LineSpacing"			"0"
 		"CornerRadius"			"2"
 		"RightJustify"			"1"
-		"TextFont"				"CerbeticaBold12"
+		"TextFont"				"HudFontSmallest"
 		"TeamBlue"				"HUDBlueTeamSolid"
 		"TeamRed"				"HUDRedTeamSolid"
 		"IconColor"				"HudWhite"
 		"LocalPlayerColor"		"65 65 65 255"
-		"BaseBackgroundColor"	"46 43 42 175"
+		"BaseBackgroundColor"	"TransparentBlack"
 		"LocalBackgroundColor"	"245 229 196 200"
 	}
-	
-	HudVehicle
+
+	"HudVehicle"
 	{
 		"fieldName" 		"HudVehicle"
 		"visible" 			"1"
@@ -1122,8 +518,8 @@
 		"wide"				"640"
 		"tall"				"480"
 	}
-	
-	CVProfPanel
+
+	"CVProfPanel"
 	{
 		"fieldName" 		"CVProfPanel"
 		"visible" 			"1"
@@ -1131,8 +527,8 @@
 		"wide"				"640"
 		"tall"				"480"
 	}
-	
-	ScorePanel
+
+	"ScorePanel"
 	{
 		"fieldName" 		"ScorePanel"
 		"visible" 			"1"
@@ -1141,8 +537,8 @@
 		"wide_minmode"		"f0"
 		"tall"				"480"
 	}
-	
-	HudTrain
+
+	"HudTrain"
 	{
 		"fieldName" 		"HudTrain"
 		"visible" 			"1"
@@ -1150,8 +546,8 @@
 		"wide"				"640"
 		"tall"				"480"
 	}
-	
-	HudMOTD
+
+	"HudMOTD"
 	{
 		"fieldName" 		"HudMOTD"
 		"visible" 			"1"
@@ -1159,8 +555,8 @@
 		"wide"				"640"
 		"tall"				"480"
 	}
-	
-	HudMessage
+
+	"HudMessage"
 	{
 		"fieldName" 		"HudMessage"
 		"visible" 			"1"
@@ -1168,8 +564,8 @@
 		"wide"				"f0"
 		"tall"				"480"
 	}
-	
-	HudMenu
+
+	"HudMenu"
 	{
 		"fieldName" 		"HudMenu"
 		"visible" 			"1"
@@ -1181,34 +577,34 @@
 		"ItemFont"			"Default"
 		"ItemFontPulsing"	"Default"
 	}
-	
-	HudSpellMenu
+
+	"HudSpellMenu"
 	{
 		"fieldName" 		"HudSpellMenu"
 		"visible"			"1"
 		"enabled" 			"1"
 		"wide"	 			"640"
 		"tall"	 			"480"
-		"xpos"				"c-220"
-		"ypos"				"c108"
-		"xpos_minmode"		"c-150"
-		"ypos_minmode"		"c62"
+		"xpos"				"c-210"
+		"ypos"				"c125"
+		"xpos_minmode"		"c-145"
+		"ypos_minmode"		"c70"
 		"zpos" 				"2"
 		"TextFont"			"Default"
 		"ItemFont"			"Default"
 		"ItemFontPulsing"	"Default"
 	}
-	
-	HudCloseCaption
+
+	"HudCloseCaption"
 	{
 		"fieldName" 		"HudCloseCaption"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c188"
+		"xpos"				"c205"
 		"ypos"				"302"
 		"wide"				"150"
 		"tall"				"60"
-		"xpos_minmode"		"c115"
+		"xpos_minmode"		"c170"
 		"ypos_minmode"		"273"
 		"wide_minmode"		"120"
 		"tall_minmode"		"40"
@@ -1219,8 +615,8 @@
 		"ItemFadeOutTime"	"0.3"
 		"topoffset"			"0"
 	}
-	
-	HudHistoryResource 
+
+	"HudHistoryResource"
 	{
 		"fieldName"			"HudHistoryResource"
 		"visible"			"0"
@@ -1230,8 +626,8 @@
 		"tall"				"330"
 		"history_gap"		"55"
 	}
-	
-	HudGeiger
+
+	"HudGeiger"
 	{
 		"fieldName" 		"HudGeiger"
 		"visible" 			"1"
@@ -1239,8 +635,8 @@
 		"wide"				"640"
 		"tall"				"480"
 	}
-	
-	HUDQuickInfo
+
+	"HUDQuickInfo"
 	{
 		"fieldName" 		"HUDQuickInfo"
 		"visible" 			"1"
@@ -1248,8 +644,8 @@
 		"wide"	 			"640"
 		"tall"	 			"480"
 	}
-	
-	HudWeapon
+
+	"HudWeapon"
 	{
 		"fieldName" 		"HudWeapon"
 		"visible" 			"1"
@@ -1257,8 +653,8 @@
 		"wide"				"640"
 		"tall"				"480"
 	}
-	
-	HudAnimationInfo
+
+	"HudAnimationInfo"
 	{
 		"fieldName" 		"HudAnimationInfo"
 		"visible" 			"1"
@@ -1266,8 +662,8 @@
 		"wide"				"640"
 		"tall"				"480"
 	}
-	
-	CBudgetPanel
+
+	"CBudgetPanel"
 	{
 		"fieldName" 		"CBudgetPanel"
 		"visible" 			"1"
@@ -1275,8 +671,8 @@
 		"wide"				"640"
 		"tall"				"480"
 	}
-	
-	CTextureBudgetPanel
+
+	"CTextureBudgetPanel"
 	{
 		"fieldName" 		"CTextureBudgetPanel"
 		"visible" 			"1"
@@ -1284,8 +680,8 @@
 		"wide"				"640"
 		"tall"				"480"
 	}
-	
-	HudPredictionDump
+
+	"HudPredictionDump"
 	{
 		"fieldName"			"HudPredictionDump"
 		"visible"			"1"
@@ -1293,8 +689,8 @@
 		"wide"				"1280"
 		"tall"				"1024"
 	}
-	
-	HudLocation
+
+	"HudLocation"
 	{
 		"fieldName" 		"HudLocation"
 		"visible"			"1"
@@ -1305,8 +701,8 @@
 		"tall"				"16"
 		"textAlignment"		"north"
 	}
-	
-	HudScope
+
+	"HudScope"
 	{
 		"fieldName"			"HudScope"
 		"visible"			"1"
@@ -1314,8 +710,8 @@
 		"wide"				"640"
 		"tall"				"480"
 	}
-	
-	HudScopeCharge
+
+	"HudScopeCharge"
 	{
 		"fieldName"			"HudScopeCharge"
 		"visible"			"1"
@@ -1325,8 +721,8 @@
 		"wide"				"64"
 		"tall"	 			"128"
 	}
-	
-	HudVoiceSelfStatus
+
+	"HudVoiceSelfStatus"
 	{
 		"fieldName" 		"HudVoiceSelfStatus"
 		"visible"			"1"
@@ -1336,8 +732,8 @@
 		"wide"				"32"
 		"tall"				"32"
 	}
-	
-	HudVoiceStatus
+
+	"HudVoiceStatus"
 	{
 		"fieldName" 		"HudVoiceStatus"
 		"visible" 			"1"
@@ -1364,8 +760,8 @@
 		"icon_wide"			"16"
 		"text_xpos"			"25"
 	}
-	
-	HudHintDisplay
+
+	"HudHintDisplay"
 	{
 		"fieldName"			"HudHintDisplay"
 		"visible"			"0"
@@ -1379,9 +775,9 @@
 		"text_ypos"			"8"
 		"center_x"			"0"		// center text horizontally
 		"center_y"			"-1"	// align text on the bottom
-	}	
-	
-	HudHintKeyDisplay
+	}
+
+	"HudHintKeyDisplay"
 	{
 		"fieldName"			"HudHintKeyDisplay"
 		"visible"			"0"
@@ -1397,8 +793,8 @@
 		"TextColor"			"255 170 0 220"
 		"PaintBackgroundType" "2"
 	}
-	
-	overview
+
+	"overview"
 	{
 		"fieldname" 		"overview"
 		"visible"			"1"
@@ -1408,8 +804,8 @@
 		"wide"				"640"
 		"tall"				"480"
 	}
-	
-	VguiScreenCursor
+
+	"VguiScreenCursor"
 	{
 		"fieldName"			"VguiScreenCursor"
 		"visible"			"1"
@@ -1417,8 +813,8 @@
 		"wide"				"640"
 		"tall"	 			"480"
 	}
-	
-	HudControlPointIcons
+
+	"HudControlPointIcons"
 	{
 		"fieldName"			"HudControlPointIcons"
 		"xpos"				"0"
@@ -1431,8 +827,8 @@
 		"separator_height"	"4"
 		"height_offset"		"2"
 	}
-	
-	HudCapturePanel
+
+	"HudCapturePanel"
 	{
 		"fieldName"			"HudCapturePanel"
 		"xpos"				"c-75"
@@ -1443,8 +839,8 @@
 		"enabled"			"1"
 		"icon_space"		"2"
 	}
-	
-	WinPanel
+
+	"WinPanel"
 	{
 		"fieldName"			"WinPanel"
 		"visible"			"1"
@@ -1455,8 +851,8 @@
 		"wide"				"200"
 		"tall"				"300"
 	}
-	
-	ArenaWinPanel
+
+	"ArenaWinPanel"
 	{
 		"fieldName"			"ArenaWinPanel"
 		"visible"			"1"
@@ -1466,8 +862,8 @@
 		"wide"				"450"
 		"tall"				"300"
 	}
-	
-	PVEWinPanel
+
+	"PVEWinPanel"
 	{
 		"fieldName"			"PVEWinPanel"
 		"visible"			"1"
@@ -1477,8 +873,8 @@
 		"wide"				"300"
 		"tall"				"215"
 	}
-	
-	StatPanel
+
+	"StatPanel"
 	{
 		"fieldName"			"StatPanel"
 		"visible"			"1"
@@ -1488,8 +884,8 @@
 		"wide"				"266"
 		"tall"				"120"
 	}
-	
-	FreezePanel
+
+	"FreezePanel"
 	{
 		"fieldName"			"FreezePanel"
 		"visible"			"1"
@@ -1499,8 +895,8 @@
 		"wide"				"f0"
 		"tall"				"480"
 	}
-	
-	FreezePanelCallout
+
+	"FreezePanelCallout"
 	{
 		"fieldName"			"FreezePanelCallout"
 		"visible"			"1"
@@ -1510,8 +906,8 @@
 		"wide"				"100"
 		"tall"				"50"
 	}
-	
-	AnnotationsPanelCallout
+
+	"AnnotationsPanelCallout"
 	{
 		"fieldName"			"AnnotationsPanelCallout"
 		"visible"			"1"
@@ -1521,8 +917,8 @@
 		"wide"				"100"
 		"tall"				"50"
 	}
-	
-	WaitingForPlayersPanel
+
+	"WaitingForPlayersPanel"
 	{
 		"fieldName"			"WaitingForPlayersPanel"
 		"visible"			"0"
@@ -1532,7 +928,7 @@
 		"wide"				"292"
 		"tall"				"64"
 	}
-	
+
 	"HudUpgradePanel"
 	{
 		"fieldName"			"HudUpgradePanel"
@@ -1543,7 +939,7 @@
 		"wide"				"400"
 		"tall"				"160"
 	}
-	
+
 	"HudChat"
 	{
 		"ControlName"		"EditablePanel"
@@ -1556,7 +952,7 @@
 		"tall"	 			"120"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"HudMenuEngyBuild"
 	{
 		"fieldName" 		"HudMenuEngyBuild"
@@ -1564,13 +960,13 @@
 		"enabled" 			"1"
 		"xpos"				"c-200"
 		"ypos"				"c-75"
-		"ypos_minmode"		"c95"
+		"ypos_minmode"		"c105"
 		"zpos"				"1"
 		"wide"				"400"
 		"tall"				"150"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"HudMenuEngyDestroy"
 	{
 		"fieldName" 		"HudMenuEngyDestroy"
@@ -1578,13 +974,13 @@
 		"enabled" 			"1"
 		"xpos"				"c-200"
 		"ypos"				"c-75"
-		"ypos_minmode"		"c95"
+		"ypos_minmode"		"c105"
 		"zpos"				"1"
 		"wide"				"400"
 		"tall"				"150"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"HudEurekaEffectTeleportMenu"
 	{
 		"fieldName" 		"HudEurekaEffectTeleportMenu"
@@ -1592,13 +988,13 @@
 		"enabled" 			"1"
 		"xpos"				"c-105"
 		"ypos"				"c-75"
-		"ypos_minmode"		"c95"
+		"ypos_minmode"		"c105"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"150"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"HudMenuSpyDisguise"
 	{
 		"fieldName" 		"HudMenuSpyDisguise"
@@ -1612,8 +1008,8 @@
 		"tall"				"190"
 		"PaintBackgroundType"	"0"
 	}
-	
-	HudDemomanPipes
+
+	"HudDemomanPipes"
 	{
 		"fieldName"			"HudDemomanPipes"
 		"visible"			"1"
@@ -1623,8 +1019,8 @@
 		"wide"				"500"
 		"tall"				"500"
 	}
-	
-	HudTeamGoal
+
+	"HudTeamGoal"
 	{
 		"fieldName"			"HudTeamGoal"
 		"visible"			"0"
@@ -1634,8 +1030,8 @@
 		"wide"				"0"
 		"tall"				"0"
 	}
-	
-	HudTeamGoalTournament
+
+	"HudTeamGoalTournament"
 	{
 		"fieldName"			"HudTeamGoalTournament"
 		"visible"			"0"
@@ -1645,8 +1041,8 @@
 		"wide"				"0"
 		"tall"				"0"
 	}
-	
-	HudTeamSwitch
+
+	"HudTeamSwitch"
 	{
 		"fieldName"			"HudTeamSwitch"
 		"visible"			"0"
@@ -1656,19 +1052,19 @@
 		"wide"				"320"
 		"tall"				"100"
 	}
-	
-	HudArenaNotification
+
+	"HudArenaNotification"
 	{
 		"fieldName"			"HudArenaNotification"
 		"visible"			"0"
 		"enabled"			"1"
-		"xpos"				"c-160"
+		"xpos"				"c-140"
 		"ypos"				"75"
-		"wide"				"320"
-		"tall"				"150"
+		"wide"				"280"
+		"tall"				"75"
 	}
-	
-	HudArenaCapPointCountdown
+
+	"HudArenaCapPointCountdown"
 	{
 		"fieldName"			"HudArenaCapPointCountdown"
 		"visible"			"1"
@@ -1679,8 +1075,8 @@
 		"tall"				"30"
 		"zpos"				"99"
 	}
-	
-	HudStalemate
+
+	"HudStalemate"
 	{
 		"fieldName"			"HudStalemate"
 		"visible"			"0"
@@ -1690,47 +1086,43 @@
 		"wide"				"320"
 		"tall"				"100"
 	}
-	
-	HudTournament
+
+	"HudTournament"
 	{
 		"fieldName"			"HudTournament"
 		"visible"			"0"
 		"enabled"			"1"
 		"xpos"				"c-125"
-		"ypos"				"5"
-		"xpos_minmode"		"0"
-		"ypos_minmode"		"0"
+		"ypos"				"0"
 		"zpos"				"12"
 		"wide"				"250"
 		"tall"				"80"
-		"wide_minmode"		"f0"
-		"tall_minmode"		"480"
 	}
-	
-	HudTournamentSetup
+
+	"HudTournamentSetup"
 	{
 		"fieldName"			"HudTournamentSetup"
 		"visible"			"0"
 		"enabled"			"1"
-		"xpos"				"c-90"
+		"xpos"				"c0"
 		"ypos"				"-70"
 		"wide"				"180"
-		"tall"				"65"
+		"tall"				"55"
 	}
-	
-	HudStopWatch
+
+	"HudStopWatch"
 	{
 		"fieldName"			"HudStopWatch"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-40"
+		"xpos"				"c-115"
 		"ypos"				"27"
 		"zpos"				"0"
-		"wide"				"80"
+		"wide"				"90"
 		"tall"				"15"
 	}
-	
-	NotificationPanel
+
+	"NotificationPanel"
 	{
 		"fieldName"			"NotificationPanel"
 		"visible"			"1"
@@ -1740,8 +1132,8 @@
 		"wide"				"640"
 		"tall"				"100"
 	}
-	
-	AchievementNotificationPanel
+
+	"AchievementNotificationPanel"
 	{
 		"fieldName"			"AchievementNotificationPanel"
 		"visible"			"1"
@@ -1751,8 +1143,8 @@
 		"wide"				"f10"
 		"tall"				"100"
 	}
-	
-	CriticalPanel
+
+	"CriticalPanel"
 	{
 		"fieldName"			"CriticalPanel"
 		"visible"			"1"
@@ -1762,8 +1154,8 @@
 		"wide"				"150"
 		"tall"				"25"
 	}
-	
-	HudArenaClassLayout
+
+	"HudArenaClassLayout"
 	{
 		"fieldName"			"HudArenaClassLayout"
 		"visible"			"1"
@@ -1773,8 +1165,8 @@
 		"wide"				"f0"
 		"tall"				"320"
 	}
-	
-	HudArenaVsPanel
+
+	"HudArenaVsPanel"
 	{
 		"fieldName"			"HudArenaVsPanel"
 		"visible"			"1"
@@ -1784,8 +1176,8 @@
 		"wide"				"f0"
 		"tall"				"240"
 	}
-	
-	HudArenaPlayerCount
+
+	"HudArenaPlayerCount"
 	{
 		"fieldName"			"HudArenaPlayerCount"
 		"visible"			"1"
@@ -1796,22 +1188,22 @@
 		"wide"				"f0"
 		"tall"				"50"
 	}
-	
+
 	"HudAchievementTracker"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudAchievementTracker"
-		"xpos"				"r145"
-		"NormalY"			"340"
-		"EngineerY"			"340"
-		"zpos"				"2"
+		"xpos"				"5"
+		"NormalY"			"300"
+		"EngineerY"			"330"
+		"zpos"				"0"
 		"wide"				"200"
-		"tall"				"280"
+		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
-	HudTrainingInfoMsg
+
+	"HudTrainingInfoMsg"
 	{
 		"fieldName"			"HudTrainingInfoMsg"
 		"visible"			"0"
@@ -1821,8 +1213,8 @@
 		"wide"				"200"
 		"tall"				"300"
 	}
-	
-	HudInspectPanel
+
+	"HudInspectPanel"
 	{
 		"fieldName"			"HudInspectPanel"
 		"visible"			"0"
@@ -1833,8 +1225,8 @@
 		"wide"				"300"
 		"tall"				"900"
 	}
-	
-	HudTFCrosshair
+
+	"HudTFCrosshair"
 	{
 		"fieldName" 		"HudTFCrosshair"
 		"visible" 			"1"
@@ -1842,8 +1234,8 @@
 		"wide"	 			"640"
 		"tall"	 			"480"
 	}
-	
-	ItemQuickSwitchPanel
+
+	"ItemQuickSwitchPanel"
 	{
 		"fieldName"			"ItemQuickSwitchPanel"
 		"visible"			"0"
@@ -1853,15 +1245,15 @@
 		"wide"				"250"
 		"tall"				"160"
 	}
-	
-	ReplayReminder
+
+	"ReplayReminder"
 	{
 		"fieldName"			"ReplayReminder"
 		"visible"			"0"
 		"enable"			"1"
 	}
-	
-	MainMenuAdditions
+
+	"MainMenuAdditions"
 	{
 		"fieldName"			"MainMenuAdditions"
 		"visible"			"1"
@@ -1872,8 +1264,8 @@
 		"wide"				"300"
 		"tall"				"100"
 	}
-	
-	CoachedByPanel
+
+	"CoachedByPanel"
 	{
 		"fieldName"			"CoachedByPanel"
 		"visible"			"0"
@@ -1883,8 +1275,8 @@
 		"wide"				"250"
 		"tall"				"44"
 	}
-	
-	ItemTestHUDPanel
+
+	"ItemTestHUDPanel"
 	{
 		"fieldName"			"ItemTestHUDPanel"
 		"visible"			"0"
@@ -1894,8 +1286,8 @@
 		"wide"				"150"
 		"tall"				"44"
 	}
-	
-	NotificationQueuePanel
+
+	"NotificationQueuePanel"
 	{
 		"fieldName"			"NotificationQueuePanel"
 		"visible"			"0"
@@ -1906,7 +1298,7 @@
 		"wide"				"200"
 		"tall"				"0"
 	}
-	
+
 	"CHudVote"
 	{
 		"fieldName"			"CHudVote"
@@ -1919,7 +1311,7 @@
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType" "0" // rounded corners
 	}
-	
+
 	"HudAlert"
 	{
 		"fieldName"			"HudAlert"
@@ -1930,7 +1322,7 @@
 		"wide"				"320"
 		"tall"				"150"
 	}
-	
+
 	"CTFStreakNotice"
 	{
 		"fieldName"			"CTFStreakNotice"
@@ -1943,8 +1335,8 @@
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType" "0" // rounded corners
 	}
-	
-	CTFFlagCalloutPanel
+
+	"CTFFlagCalloutPanel"
 	{
 		"fieldName"			"CTFFlagCalloutPanel"
 		"visible" 			"0"
@@ -1955,20 +1347,20 @@
 		"tall"	 			"40"
 		"priority"			"40"
 	}
-	
+
 	"HudMenuTauntSelection"
 	{
 		"fieldName" 		"HudMenuTauntSelection"
 		"visible" 			"1"
 		"enabled" 			"1"
 		"xpos"				"c-235"
-		"ypos"				"c125"
-		"zpos"				"10"
+		"ypos"				"c135"
+		"zpos"				"0"
 		"wide"				"470"
 		"tall"				"200"
 		"PaintBackgroundType" "0"
 	}
-	
+
 	"ItemAttributeTracker"
 	{
 		"fieldName" 		"ItemAttributeTracker"
@@ -1980,8 +1372,8 @@
 		"tall"				"f0"
 		"PaintBackgroundType" "0"
 	}
-	
-	HudMiniGame
+
+	"HudMiniGame"
 	{
 		"fieldName" 		"HudMiniGame"
 		"visible" 			"1"
@@ -1991,7 +1383,7 @@
 		"wide" 				"f0"
 		"tall" 				"480"
 	}
-	
+
 	"QuestNotificationPanel"
 	{
 		"fieldName"			"QuestNotificationPanel"
@@ -2002,7 +1394,7 @@
 		"wide"				"f0"
 		"tall"				"f0"
 	}
-	
+
 	"MatchMakingContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -2014,8 +1406,8 @@
 		"wide"	 			"f0"
 		"tall"	 			"f0"
 	}
-	
-	HudSpectatorExtras
+
+	"HudSpectatorExtras"
 	{
 		"fieldName" 		"HudSpectatorExtras"
 		"visible" 			"1"
@@ -2025,8 +1417,8 @@
 		"wide"				"f0"
 		"tall"				"f0"
 	}
-	
-	MatchSummary
+
+	"MatchSummary"
 	{
 		"fieldName" 		"MatchSummary"
 		"visible" 			"0"
@@ -2036,8 +1428,8 @@
 		"wide"				"f0"
 		"tall"				"f0"
 	}
-	
-	HudMatchStatus
+
+	"HudMatchStatus"
 	{
 		"fieldName"			"HudMatchStatus"
 		"visible"			"1"
@@ -2048,7 +1440,7 @@
 		"wide"				"f0"
 		"tall"				"f0"
 	}
-	
+
 	"QueueHUDStatus"
 	{
 		"fieldName"				"QueueHUDStatus"
@@ -2064,10 +1456,10 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
-	
-	HUDAutoAim			{ }
-	HudHDRDemo			{ }
-	HudTrainingMsg		{ }
-	TrainingComplete	{ }
-	AnnotationsPanel	{ }
+
+	"HUDAutoAim"			{ }
+	"HudHDRDemo"			{ }
+	"HudTrainingMsg"		{ }
+	"TrainingComplete"	{ }
+	"AnnotationsPanel"	{ }
 }

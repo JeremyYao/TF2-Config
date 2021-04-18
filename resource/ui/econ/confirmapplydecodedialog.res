@@ -14,51 +14,51 @@
 		"settitlebarvisible"	"0"
 		"border"				"CyanBorderThick"
 	}
-	
+
 	"mouseoveritempanel"
 	{
-		"ControlName"		"CItemModelPanel"
-		"fieldName"			"mouseoveritempanel"
-		"xpos"				"c-70"
-		"ypos"				"270"
-		"zpos"				"100"
-		"wide"				"300"
-		"tall"				"300"
-		"visible"			"0"
-		"bgcolor_override"	"Transparent"
-		"noitem_textcolor"	"TextColor"
+		"ControlName"			"CItemModelPanel"
+		"fieldName"				"mouseoveritempanel"
+		"xpos"					"c-70"
+		"ypos"					"270"
+		"zpos"					"100"
+		"wide"					"300"
+		"tall"					"300"
+		"visible"				"0"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"		"1"
-		"text_ypos"			"20"
-		"text_center"		"1"
-		"model_hide"		"1"
-		"resize_to_text"	"1"
-		"padding_height"	"15"
-		
+		"paintborder"			"1"
+		"text_ypos"				"20"
+		"text_center"			"1"
+		"model_hide"			"1"
+		"resize_to_text"		"1"
+		"padding_height"		"15"
+
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"101"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"center"
-			"fgcolor"		"TextColor"
-			"centerwrap"	"1"
+			"font"				"ItemFontAttribLarge"
+			"xpos"				"0"
+			"ypos"				"30"
+			"zpos"				"2"
+			"wide"				"140"
+			"tall"				"60"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"labelText"			"%attriblist%"
+			"textAlignment"		"center"
+			"fgcolor"			"TextColor"
+			"centerwrap"		"1"
 		}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"Cerbetica22"
+		"font"				"HudFontMediumBold"
 		"labelText"			"dynamic"
 		"textAlignment"		"center"
 		"xpos"				"100"
@@ -72,7 +72,7 @@
 		"enabled"			"1"
 		"centerwrap"		"1"
 	}
-	
+
 	"ToolBG"
 	{
 		"ControlName"		"CExLabel"
@@ -92,6 +92,7 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_SelfMade"
 	}
+	
 	"tool_icon"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -108,6 +109,7 @@
 		"tileVertically"	"0"
 		"drawcolor"			"112 176 74 255"
 	}
+	
 	"tool_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -130,7 +132,7 @@
 		"text_center"		"1"
 		"name_only"			"1"
 		"paint_icon_hide"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -138,6 +140,7 @@
 			"inventory_image_type"	"1"
 		}
 	}
+	
 	"SubjectBG"
 	{
 		"ControlName"		"CExLabel"
@@ -157,6 +160,7 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_Vintage"
 	}
+	
 	"subject_icon"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -173,6 +177,7 @@
 		"tileVertically"	"0"
 		"drawcolor"			"71 98 145 255"
 	}
+	
 	"subject_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -194,7 +199,7 @@
 		"text_ypos"			"100"
 		"text_center"		"1"
 		"name_only"			"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -202,13 +207,13 @@
 			"inventory_image_type"	"1"
 		}
 	}
-	
+
 	"ConfirmLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ConfirmLabel"
 		"font"				"HudFontSmall"
-		"labelText"			"#ToolDecodeConfirm"
+		"labelText"			"%confirm_text%"
 		"textAlignment"		"center"
 		"xpos"				"20"
 		"ypos"				"80"
@@ -221,16 +226,16 @@
 		"enabled"			"1"
 		"fgcolor_override"	"Yellow"
 	}
-	
+
 	"OptionalAppendLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OptionalAppendLabel"
-		"font"				"FontRegular12"
+		"font"				"HudFontSmall"
 		"labelText"			"%optional_append%"
 		"textAlignment"		"center"
 		"xpos"				"20"
-		"ypos"				"120"
+		"ypos"				"80"
 		"zpos"				"0"
 		"wide"				"360"
 		"tall"				"60"
@@ -238,9 +243,9 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" 	"LightRed"
+		"fgcolor_override"	"LightRed"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"		"CExButton"
@@ -249,7 +254,7 @@
 		"ypos"				"200"
 		"zpos"				"1"
 		"wide"				"130"
-		"tall"				"25"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"3"
 		"visible"			"1"
@@ -265,7 +270,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"		"CExButton"
@@ -274,7 +279,7 @@
 		"ypos"				"200"
 		"zpos"				"1"
 		"wide"				"130"
-		"tall"				"25"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"3"
 		"visible"			"1"

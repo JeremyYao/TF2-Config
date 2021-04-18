@@ -28,7 +28,7 @@
 		"clientinsetx_override"				"0"
 		"sheetinset_bottom"					"40"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -43,7 +43,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-	
+
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,7 +58,7 @@
 		"fillcolor"		"15 15 15 175"
 		"tileImage"		"1"
 	}
-	
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -87,11 +87,11 @@
 		"fillcolor"		"15 15 15 220"
 		"tileImage"		"1"
 	}
-	
+
 	"FooterLine"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"HeaderLine"
+		"fieldName"		"FooterLine"
 		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"2"
@@ -102,18 +102,18 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"ColorCyan"
 	}
-	
+
 	"Sheet"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Sheet"
-		"tabxindent"	"80"
-		"tabxdelta"		"10"
-		"tabwidth"		"240"
-		"tabheight"		"20"
-		"yoffset"		"14"
-		"transition_time" "0"
-		
+		"ControlName"		"EditablePanel"
+		"fieldName"			"Sheet"
+		"tabxindent"		"80"
+		"tabxdelta"			"10"
+		"tabxfittotext"		"1"
+		"tabheight"			"20"
+		"yoffset"			"14"
+		"transition_time"	"0"
+
 		"HeaderLine"
 		{
 			"ControlName"	"EditablePanel"
@@ -130,24 +130,23 @@
 			"border"				"NoBorder"
 			"bgcolor_override"		"ColorCyan"
 		}
-		
+
 		"tabskv"
 		{
 			"textinsetx"		"25"
 			"textAlignment"		"center"
-			"font"				"Cerbetica20"
-			"ypos"				"50"
+			"font"				"HudFontSmall"
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"
-			"paintbackground"	"1"
-			"defaultBgColor_override"		"25 25 25 255"
-			"unselectedBgColor_override"	"10 10 10 255"
-			"activeborder_override"			"CyanBorderTabs"
-			"depressedBgColor_override"		"10 10 10 255"
-			"normalborder_override" 		"CyanBorderTabsInactive"
+			"defaultBgColor_override"	"DarkGrey"
+			"paintbackground"			"1"
+			"activeborder_override"		"CyanBorderTabs"
+			"normalborder_override" 	"CyanBorderTabsInactive"
+			"armedBgColor_override"		"10 10 10 255"
+			"selectedBgColor_override"	"10 10 10 255"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"		"CExButton"
@@ -155,15 +154,15 @@
 		"xpos"				"c-300"
 		"ypos"				"437"
 		"zpos"				"2"
-		"wide"				"100"
+		"wide"				"130"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"3"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"<< Back (&Q)"
-		"font"				"HudFontSmallBold"
+		"labelText"			"Exit Store (&Q)"
+		"font"				"HudFontSmall"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -172,7 +171,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"armory_panel"
 	{
 		"ControlName"		"CArmoryPanel"
@@ -184,7 +183,7 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
-	
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"		"CNotificationsPresentPanel"
@@ -197,7 +196,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
-	
+
 	"SupportCommunityMapMakersCheckButton"
 	{
 		"ControlName"		"CheckButton"
@@ -211,7 +210,7 @@
 		"labelText"			""
 		"visible"			"0"
 	}
-	
+
 	"SupportCommunityMapMakersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -227,7 +226,7 @@
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"
 	}
-	
+
 	"CheckoutButton"
 	{
 		"ControlName"		"CExButton"
@@ -243,7 +242,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Store_Checkout"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontSmall"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"

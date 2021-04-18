@@ -13,12 +13,12 @@
 		"enabled"			"1"
 		"verbose"			"1"
 	}
-	
+
 	"PopFileLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PopFileLabel"
-		"font"				"Cerbetica24"
+		"font"				"HudFontMedium"
 		"labelText"			"%popfile%"
 		"textAlignment"		"west"
 		"xpos"				"c-265"
@@ -27,7 +27,7 @@
 		"tall"				"30"
 		"fgcolor"			"TanLight"
 	}
-	
+
 	"PlayerListBackground"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -46,11 +46,11 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
-	"ScoreboardBackground"
+
+	"PlayerListBG"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"ScoreboardBackground"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"PlayerListBG"
 		"xpos"				"c-270"
 		"ypos"				"244"
 		"zpos"				"-1"
@@ -59,9 +59,10 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 200"
+		"bgcolor_override"		"TransparentBlack"
+		"PaintBackgroundType"	"0"
 	}
-	
+
 	"MvMPlayerList"
 	{
 		"ControlName"		"SectionedListPanel"
@@ -77,9 +78,9 @@
 		"autoresize"		"3"
 		"linespacing"		"22"
 		"textcolor"			"White"
-		"font"				"Cerbetica24"
+		"font"				"HudFontMedium"
 	}
-	
+
 	"CreditStatsContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -89,7 +90,7 @@
 		"wide"				"480"
 		"tall"				"205"
 		"visible"			"1"
-		
+
 		"CreditStatsBackground"
 		{
 			"ControlName"	"ScalableImagePanel"
@@ -107,14 +108,29 @@
 			"src_corner_height"		"0"
 			"src_corner_width"		"0"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
-		
+		"CreditStatsBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"CreditStatsBG"
+			"xpos"			"0"
+			"ypos"			"25"
+			"zpos"			"-1"
+			"wide"			"335"
+			"tall"			"115"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"		"TransparentBlack"
+			"PaintBackgroundType"	"2"
+
+		}
+
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"Cerbetica16"
+			"font"			"HudFontSmallishBold"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "center"
 			"xpos"			"9999"
@@ -122,7 +138,7 @@
 			"wide"			"200"
 			"fgcolor"		"TanLight"
 		}
-		
+
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -134,7 +150,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -146,7 +162,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
@@ -158,7 +174,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"

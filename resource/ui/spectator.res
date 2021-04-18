@@ -1,3 +1,5 @@
+#base "hudinspectpanel.res"
+
 "Resource/UI/Spectator.res"
 {
 	"Spectator"
@@ -11,9 +13,9 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"specgui" { }
-	
+
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -28,7 +30,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
@@ -40,7 +42,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"bottombarblank"
 	{
 		"ControlName"	"Panel"
@@ -55,48 +57,51 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"ReinforcementsLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"
+		"xpos"			"0"
 		"ypos"			"50"
-		"wide"			"600"
-		"tall"			"24"
+		"wide"			"f0"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"center"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMedium"
+
+		if_mvm
+		{
+			"ypos"		"90"
+		}
 	}
-	
+
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"320"
-		"tall"			"30"
+		"ypos"			"110"
+		"wide"			"f0"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"wrap"			"1"
-		"centerwrap"	"1"
-		"font"			"Cerbetica24"
-		
+		"font"			"HudFontSmall"
+
 		if_mvm
 		{
 			"visible"		"1"
 		}
 	}
-	
+
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -114,7 +119,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"xpos"			"9999"
-		
 	}
 	"SwitchCamModeLabel"
 	{
@@ -152,80 +156,7 @@
 		"fieldName"		"TipLabel"
 		"xpos"			"9999"
 	}
-	"itempanel"
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"itempanel"
-		"xpos"			"r249"
-		"ypos"			"c50"
-		"zpos"			"10"
-		"wide"			"240"
-		"tall"			"100"
-		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
-		"paintbackground"		"1"
-		"PaintBackgroundType"	"0"
-		
-		"model_ypos"		"20"
-		"model_center_x"	"1"
-		"model_wide"		"90"
-		"model_tall"		"60"
-		
-		"text_xpos"			"10"
-		"text_ypos"			"10"
-		"text_wide"			"220"
-		"text_center"		"1"
-		
-		"max_text_height"	"100"
-		"padding_height"	"10"
-		"resize_to_text"	"1"
-		"text_forcesize"	"2"
-		
-		"ItemBG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"ItemBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"240"
-			"tall"			"900"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"HudBlack"
-		}
-		
-		"itemmodelpanel"
-		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"	"1"
-			"inventory_image_type"	"1"
-		}
-		
-		"ItemLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"ItemLabel"
-			"font"			"Cerbetica12"
-			"xpos"			"10"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-	}
-	
+
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

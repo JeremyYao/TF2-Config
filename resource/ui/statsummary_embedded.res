@@ -1,4 +1,4 @@
-"Resource/UI/statsummary.res"
+"Resource/UI/statsummary_embedded.res"
 {
 	"TFStatsSummary"
 	{
@@ -12,75 +12,35 @@
 		"enabled"		"1"
 		"bgcolor_override"	"DarkGrey"
 	}
-	
+
 	"MainBackground"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBackground"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
+		"xpos"			"9999"
 	}
-	
+
 	"OnYourWayLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"CerbeticaBold24"
-		"labelText"		"#LoadingMap"
-		"textAlignment"	"west"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"50"
-		"wide"			"0"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
-	
+
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontMediumBigBold"
-		"labelText"		"%maplabel%"
-		"textAlignment"	"center"
-		"xpos"			"5"
-		"ypos"			"92"
-		"zpos"			"50"
-		"wide"			"350"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
+		"xpos"			"9999"
 	}
-	
+
 	"MapType"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"HudFontMediumBigBold"
-		"labelText"		"%maptype%"
-		"textAlignment"	"center"
-		"xpos"			"5"
-		"ypos"			"117"
-		"zpos"			"50"
-		"wide"			"350"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
+		"xpos"			"9999"
 	}
-	
+
 	"StatData"
 	{
 		"ControlName"	"EditablePanel"
@@ -104,17 +64,18 @@
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
-	
+
 			"BarChartLabelA"
 			{
 				"ControlName"		"Label"
 				"fieldName"			"BarChartLabelA"
-				"font"				"CerbeticaBold12"
+				"font"				"Cerbetica12"
 				"labelText"			"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
 				"xpos"				"c-282"
 				"ypos"				"212"
 				"zpos"				"5"
+				"wide"				"150"
 				"tall"				"20"
 				"autoResize"		"0"
 				"pinCorner"			"0"
@@ -125,7 +86,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"			"BarChartLabelB"
-				"font"				"CerbeticaBold12"
+				"font"				"Cerbetica12"
 				"labelText"			"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
 				"xpos"				"c-127"
@@ -137,12 +98,12 @@
 				"pinCorner"			"0"
 				"visible"			"1"
 				"enabled"			"1"
-			}			
+			}
 			"OverallRecordLabel"
 			{
 				"ControlName"		"Label"
 				"fieldName"			"OverallRecordLabel"
-				"font"				"CerbeticaBold12"
+				"font"				"Cerbetica12"
 				"labelText"			"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"				"c+130"
@@ -170,66 +131,66 @@
 
 			"BarChartComboA"
 			{
-				"ControlName"	"ComboBox"
-				"fieldName"		"BarChartComboA"
-				"xpos"			"c-285"
-				"ypos"			"212"
-				"zpos"			"10"
-				"wide"			"154"
-				"tall"			"14"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"1"
-				"textHidden"	"0"
-				"editable"		"0"
-				"maxchars"		"-1"
+				"ControlName"		"ComboBox"
+				"fieldName"			"BarChartComboA"
+				"xpos"				"c-285"
+				"ypos"				"212"
+				"zpos"				"10"
+				"wide"				"154"
+				"tall"				"14"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"tabPosition"		"1"
+				"textHidden"		"0"
+				"editable"			"0"
+				"maxchars"			"-1"
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
 			}
 			"BarChartComboB"
 			{
-				"ControlName"	"ComboBox"
-				"fieldName"		"BarChartComboB"
-				"xpos"			"c-127"
-				"ypos"			"212"
-				"zpos"			"10"
-				"wide"			"154"
-				"tall"			"14"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"1"
-				"textHidden"	"0"
-				"editable"		"0"
-				"maxchars"		"-1"
+				"ControlName"		"ComboBox"
+				"fieldName"			"BarChartComboB"
+				"xpos"				"c-127"
+				"ypos"				"212"
+				"zpos"				"10"
+				"wide"				"154"
+				"tall"				"14"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"tabPosition"		"1"
+				"textHidden"		"0"
+				"editable"			"0"
+				"maxchars"			"-1"
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
 			}
 			"ClassCombo"
 			{
-				"ControlName"	"ComboBox"
-				"fieldName"		"ClassCombo"
-				"xpos"			"c+124"
-				"ypos"			"212"
-				"zpos"			"10"
-				"wide"			"167"
-				"tall"			"14"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"1"
-				"textHidden"	"0"
-				"editable"		"0"
-				"maxchars"		"-1"
+				"ControlName"		"ComboBox"
+				"fieldName"			"ClassCombo"
+				"xpos"				"c+124"
+				"ypos"				"212"
+				"zpos"				"10"
+				"wide"				"167"
+				"tall"				"14"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"tabPosition"		"1"
+				"textHidden"		"0"
+				"editable"			"0"
+				"maxchars"			"-1"
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
 			}
 		}
-		
+
 		"AveragesBG"
 		{
 			"ControlName"	"EditablePanel"
@@ -242,7 +203,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"15 15 15 255"
+			"bgcolor_override"	"TransparentBlack"
+			"PaintBackgroundType"	"2"
 		}
 		"AveragesLabel"
 		{
@@ -273,10 +235,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarBG1B"
 		{
 			"ControlName"	"ImagePanel"
@@ -290,7 +252,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -307,7 +269,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar1"
 			"PaintBackgroundType"	"0"
 		}
@@ -324,7 +286,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar1"
 			"PaintBackgroundType"	"0"
 		}
@@ -332,7 +294,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -344,12 +306,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel1B"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -361,13 +323,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanLight"
 		}
 		"ClassLabel1"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel1"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class1%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -393,7 +354,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -410,7 +371,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -427,10 +388,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar2"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBar2B"
 		{
 			"ControlName"	"ImagePanel"
@@ -444,15 +405,15 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar2"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel2A"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -469,7 +430,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -481,12 +442,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel2"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel2"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class2%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -512,7 +473,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -529,7 +490,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -546,10 +507,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar3"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBar3B"
 		{
 			"ControlName"	"ImagePanel"
@@ -563,15 +524,15 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar3"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel3A"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -588,7 +549,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -605,7 +566,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel3"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class3%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -631,7 +592,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -648,7 +609,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -665,7 +626,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar4"
 			"PaintBackgroundType"	"0"
 		}
@@ -682,7 +643,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar4"
 			"PaintBackgroundType"	"0"
 		}
@@ -690,7 +651,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -707,7 +668,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -724,7 +685,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel4"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class4%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -750,7 +711,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -767,7 +728,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -784,10 +745,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar5"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBar5B"
 		{
 			"ControlName"	"ImagePanel"
@@ -801,15 +762,15 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar5"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel5A"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -826,7 +787,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -843,7 +804,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel5"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class5%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -869,7 +830,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -886,7 +847,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -903,10 +864,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar6"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBar6B"
 		{
 			"ControlName"	"ImagePanel"
@@ -920,15 +881,15 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar6"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel6A"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -940,12 +901,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel6B"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -957,12 +918,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel6"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel6"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class6%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -974,7 +935,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG7A"
 		{
 			"ControlName"	"ImagePanel"
@@ -988,7 +949,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -1005,7 +966,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -1022,10 +983,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar7"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBar7B"
 		{
 			"ControlName"	"ImagePanel"
@@ -1039,15 +1000,15 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar7"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel7A"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1059,12 +1020,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel7B"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1076,12 +1037,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel7"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel7"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class7%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1107,7 +1068,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -1124,7 +1085,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -1141,10 +1102,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar8"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBar8B"
 		{
 			"ControlName"	"ImagePanel"
@@ -1158,15 +1119,15 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar8"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel8A"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1183,7 +1144,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1200,7 +1161,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel8"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class8%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1226,7 +1187,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -1243,7 +1204,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -1260,10 +1221,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar9"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBar9B"
 		{
 			"ControlName"	"ImagePanel"
@@ -1277,7 +1238,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"StatBar9"
 			"PaintBackgroundType"	"0"
 		}
@@ -1285,7 +1246,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1302,7 +1263,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1319,7 +1280,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel9"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class9%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1361,7 +1322,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"RecordsSubBG1"
 		{
 			"ControlName"	"ImagePanel"
@@ -1375,7 +1336,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"	
+			"tabPosition"	"0"
 			"fillcolor"		"0 0 0 80"
 			"PaintBackgroundType"	"0"
 		}
@@ -1395,16 +1356,16 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-		}	
+		}
 		"OverallRecord1Label"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord1label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"229"
+			"ypos"			"230"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1417,11 +1378,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord1value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"229"
+			"ypos"			"230"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1434,11 +1395,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"239"
+			"ypos"			"242"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1451,11 +1412,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"239"
+			"ypos"			"242"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1468,11 +1429,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord3label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"249"
+			"ypos"			"254"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1485,11 +1446,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord3value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"249"
+			"ypos"			"254"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1502,11 +1463,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord4label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"259"
+			"ypos"			"266"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1519,11 +1480,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord4value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"259"
+			"ypos"			"266"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1536,11 +1497,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord5label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"269"
+			"ypos"			"278"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1553,11 +1514,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord5value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"269"
+			"ypos"			"278"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1570,11 +1531,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"279"
+			"ypos"			"290"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1587,11 +1548,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord6value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"279"
+			"ypos"			"290"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1604,11 +1565,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord7label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"289"
+			"ypos"			"302"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1621,11 +1582,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord7value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"289"
+			"ypos"			"302"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1638,11 +1599,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord8label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"299"
+			"ypos"			"314"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1655,11 +1616,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord8value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"299"
+			"ypos"			"314"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1672,11 +1633,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord9label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"309"
+			"ypos"			"326"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1689,11 +1650,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"309"
+			"ypos"			"326"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1706,11 +1667,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord10label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"319"
+			"ypos"			"338"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1723,11 +1684,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord10value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"319"
+			"ypos"			"338"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1740,11 +1701,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord11label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"329"
+			"ypos"			"350"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1757,11 +1718,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord11value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"329"
+			"ypos"			"350"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1774,11 +1735,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord12label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"339"
+			"ypos"			"362"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1791,11 +1752,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord12value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"339"
+			"ypos"			"362"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1808,11 +1769,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord13label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"349"
+			"ypos"			"374"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1825,11 +1786,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord13value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"349"
+			"ypos"			"374"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1842,11 +1803,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord14label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"359"
+			"ypos"			"386"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1859,11 +1820,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord14value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"359"
+			"ypos"			"386"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1876,11 +1837,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord15Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord15label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
-			"ypos"			"369"
+			"ypos"			"398"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1893,11 +1854,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"HudFontSmallest"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
-			"ypos"			"369"
+			"ypos"			"398"
 			"zpos"			"5"
 			"wide"			"200"
 			"tall"			"20"
@@ -1907,7 +1868,7 @@
 			"enabled"		"1"
 		}
 	}
-	
+
 	"TipImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1919,14 +1880,14 @@
 		"tall"			"35"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	"TipText"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TipText"
-		"font"			"Cerbetica12"
+		"font"			"HudFontSmallest"
 		"labelText"		"%tiptext%"
 		"textAlignment"	"west"
 		"xpos"			"c-285"
@@ -1940,7 +1901,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 	}
-	
+
 	"NextTipButton"
 	{
 		"ControlName"	"Button"
@@ -1960,20 +1921,16 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nexttip"
-		"defaultBgColor_override"	"15 15 15 255"
-		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
-	
+
 	"ResetStatsButton"
 	{
 		"ControlName"	"Button"
 		"fieldName"		"ResetStatsButton"
 		"xpos"			"c130"
-		"ypos"			"270"
+		"ypos"			"290"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -1990,7 +1947,7 @@
 		"border_default"	"ButtonHover"
 		"border_armed"		"ButtonHover"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"Button"

@@ -18,7 +18,7 @@
 		"bgcolor_override"				"27 27 27 0"
 		"infocus_bgcolor_override"		"27 27 27 0"
 		"outoffocus_bgcolor_override"	"27 27 27 0"
-		
+
 		"title"							"#Replay_Replay"
 		"title_font"					"HudFontSmallBold"
 		"titletextinsetX"				"40"
@@ -26,11 +26,11 @@
 		"titlebarfgcolor_override"		"HudOffWhite"
 		"titlebardisabledfgcolor_override"	"HudOffWhite"
 		"titlebarbgcolor_override"		"DarkGrey"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -59,7 +59,7 @@
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
-	
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -88,7 +88,7 @@
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
-	
+
 	"FooterLine"
 	{
 		"ControlName"	"EditablePanel"
@@ -103,7 +103,7 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"ColorCyan"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -114,7 +114,7 @@
 		"tabheight"		"20"
 		"transition_time" "0"
 		"yoffset"		"14"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"EditablePanel"
@@ -129,39 +129,39 @@
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"		"ColorCyan"
 		}
-		
+
 		"tabskv"
 		{
 			"textinsetx"		"25"
 			"textAlignment"		"center"
-			"font"				"Cerbetica18"
+			"font"				"HudFontSmall"
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"25 25 25 255"
 			"paintbackground"			"1"
 			"activeborder_override"		"CyanBorderTabs"
 			"normalborder_override"		"CyanBorderTabsInactive"
-			"unselectedBgColor_override"	"10 10 10 255"
-			"depressedBgColor_override"		"10 10 10 255"
+			"armedBgColor_override"		"10 10 10 255"
+			"selectedBgColor_override"	"10 10 10 255"
 		}
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-295"
+		"xpos"			"c-288"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back (&Q)"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

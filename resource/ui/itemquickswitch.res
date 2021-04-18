@@ -5,9 +5,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemQuickSwitchPanel"
 		"xpos"			"c-135"
-		"ypos"			"330"
+		"ypos"			"360"
 		"wide"			"270"
-		"tall"			"140"
+		"tall"			"115"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -16,10 +16,10 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"DarkGrey"
-		
+
 		"itempanel_xpos"		"0"
 		"itempanel_ydelta"		"0"
-		
+
 		"itemskv"
 		{
 			"wide"			"205"
@@ -40,14 +40,14 @@
 			"noitem_textcolor"		"TextColor"
 		}
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
 		"xpos"			"9999"
 	}
-	
+
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -61,14 +61,7 @@
 		"fieldName"		"ItemSlotLabel"
 		"xpos"			"9999"
 	}
-	
-	"NoItemsLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NoItemsLabel"
-		"xpos"			"9999"
-	}
-	
+
 	"TopLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -83,8 +76,8 @@
 		"image"			"loadout_dotted_line"
 		"tileImage"		"1"
 		"tileVertically" "0"
-	}				
-		
+	}
+
 	"itemcontainerscroller"
 	{
 		"ControlName"	"EditablePanel"
@@ -98,7 +91,7 @@
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 	}
-		
+
 	"itemcontainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -109,7 +102,7 @@
 		"tall"			"125"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"200 187 161 0"
-		
+
 		"CurrentlyEquippedBackground"
 		{
 			"ControlName"	"CExLabel"
@@ -128,13 +121,20 @@
 			"bgcolor_override"	"Transparent"
 		}
 	}
-	
+
+	"NoItemsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NoItemsLabel"
+		"xpos"			"9999"
+	}
+
 	"loadout_preset_panel"
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
 		"xpos"			"240"
-		"ypos"			"15"
+		"ypos"			"5"
 		"zpos"			"20"
 		"wide"			"25"
 		"tall"			"110"

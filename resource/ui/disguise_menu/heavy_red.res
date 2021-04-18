@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemName"
-		"font"				"CerbeticaBold14"
+		"font"				"HudFontSmallest"
 		"xpos"				"20"
 		"ypos"				"0"
 		"zpos"				"1"
@@ -20,7 +20,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"ClassIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -35,7 +35,7 @@
 		"scaleImage"		"1"
 		"icon"				"hud_menu_scout_red"
 	}
-	
+
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
@@ -51,12 +51,12 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NewNumberLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"CerbeticaBold14"
+		"font"				"HudFontSmallest"
 		"fgcolor"			"HUDRedTeamSolid"
 		"xpos"				"5"
 		"ypos"				"3"
@@ -72,12 +72,12 @@
 		"dulltext"			"1"
 		"brighttext"		"0"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"CerbeticaBold14"
+		"font"				"HudFontSmallest"
 		"fgcolor"			"HUDRedTeamSolid"
 		"xpos"				"5"
 		"ypos"				"3"

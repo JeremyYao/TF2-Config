@@ -2,50 +2,49 @@
 {
 	"HudArenaNotificationBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"HudArenaNotificationBG"
-		"xpos"			"20"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"280"
-		"tall"			"100"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 230"
-		"border"		"CyanBorderThick"
+		"bgcolor_override"		"TransparentBlack"
+		"PaintBackgroundType"	"2"
+		"border"				"CyanBorderThick"
 	}
-	
+
 	"WarningLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"WarningLabel"
-		"font"			"CerbeticaBold72"
-		"xpos"			"40"
-		"ypos"			"15"
+		"font"			"HudFontGiantBold"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"72"
-		"tall"			"72"
+		"wide"			"50"
+		"tall"			"75"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"1"
+		"wrap"			"0"
 		"labelText"		"!"
 		"textAlignment"	"center"
 	}
-	
+
 	"BalanceLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"CerbeticaBold20"
-		"xpos"			"70"
+		"font"			"HudFontSmall"
+		"xpos"			"50"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"230"
-		"tall"			"64"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -54,17 +53,17 @@
 		"labelText"		""
 		"textAlignment"	"west"
 	}
-	
+
 	"BalanceLabelTip"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"CerbeticaBold16"
-		"xpos"			"70"
-		"ypos"			"34"
+		"font"			"HudFontSmall"
+		"xpos"			"50"
+		"ypos"			"30"
 		"zpos"			"1"
 		"wide"			"230"
-		"tall"			"64"
+		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -73,13 +72,13 @@
 		"labelText"		"%notificationtip%"
 		"textAlignment"	"west"
 	}
-	
+
 	"SwitchImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SwitchImage"
 		"xpos"			"25"
-		"ypos"			"23"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"50"

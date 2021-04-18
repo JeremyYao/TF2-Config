@@ -7,11 +7,11 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"80"
+		"wide"			"90"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 150"
+		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -26,14 +26,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ObjectiveStatusTimePanel"
-		"xpos"			"55"
+		"xpos"			"60"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"TimePanelBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -41,12 +41,12 @@
 			"tall"			"0"
 			"visible"		"0"
 		}
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmallest"
 			"fgcolor"		"TanLight"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -63,10 +63,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"Cerbetica12"
+		"font"			"HudFontSmallest"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"	"center"
-		"xpos"			"0"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"15"
@@ -76,15 +76,15 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
+
 	"StopWatchPointsLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"Cerbetica12"
+		"font"			"HudFontSmallest"
 		"labelText"		"points in"
 		"textAlignment"	"center"
-		"xpos"			"15"
+		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"40"
@@ -105,8 +105,8 @@
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"4"
-		"wide"			"80"
+		"zpos"			"1"
+		"wide"			"90"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"

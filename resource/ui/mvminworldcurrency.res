@@ -11,15 +11,15 @@
 		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"CurrencyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CurrencyLabel"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 		"fgcolor"			"TanLight"
 		"xpos"				"4"
 		"ypos"				"0"
@@ -31,12 +31,12 @@
 		"textAlignment"		"west"
 		"labelText"			"#TF_PVE_Missed"
 	}
-	
+
 	"CurrencyGood"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CurrencyGood"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 		"fgcolor"			"CreditsGreen"
 		"xpos"				"45"
 		"ypos"				"0"
@@ -48,12 +48,12 @@
 		"textAlignment"		"east"
 		"labelText"			"%currency%"
 	}
-	
+
 	"CurrencyBad"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CurrencyBad"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 		"fgcolor"			"225 30 30 255"
 		"xpos"				"45"
 		"ypos"				"0"

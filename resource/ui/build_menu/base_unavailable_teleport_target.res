@@ -4,9 +4,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemNameLabel"
-		"font"				"CerbeticaBold16"
+		"font"				"HudFontSmall"
 		"xpos"				"0"
-		"ypos"				"10"
+		"ypos"				"4"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"15"
@@ -20,7 +20,7 @@
 		"brighttext"		"0"
 		"fgcolor"			"ColorRed"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"		"CIconPanel"
@@ -34,14 +34,14 @@
 		"enabled"			"0"
 		"scaleImage"		"1"
 		"icon"				"hud_menu_item_bg"
-		"iconColor"			"Black"
+		"iconColor"			"ProgressOffWhite"
 	}
-	
+
 	"CantBuildReason"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CantBuildReason"
-		"font"				"CerbeticaBold16"
+		"font"				"HudFontSmall"
 		"xpos"				"0"
 		"ypos"				"60"
 		"zpos"				"2"
@@ -57,13 +57,13 @@
 		"brighttext"		"0"
 		"fgcolor"			"ColorRed"
 	}
-	
+
 	"ModeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ModeLabel"
 		"font"				"DefaultSmall"
-		"fgcolor"			"TanDarker"
+		"fgcolor"			"TanDark"
 		"xpos"				"33"
 		"ypos"				"17"
 		"zpos"				"1"
@@ -76,13 +76,13 @@
 		"labelText"			""
 		"textAlignment"		"East"
 	}
-	
+
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg"
 		"xpos"				"41"
-		"ypos"				"106"
+		"ypos"				"99"
 		"zpos"				"0"
 		"wide"				"18"
 		"tall"				"18"
@@ -92,15 +92,15 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NumberLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"CerbeticaBold20"
+		"font"				"HudFontMediumSecondary"
 		"fgcolor"			"ColorRed"
 		"xpos"				"0"
-		"ypos"				"105"
+		"ypos"				"95"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"20"

@@ -6,15 +6,15 @@
 		"fieldName"		"BuildingStatusItem"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"150"
-		"tall"			"177"
+		"wide"			"140"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
@@ -24,41 +24,41 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"Icon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
-		"xpos"			"24"
-		"ypos"			"147"
-		"wide"			"28"
-		"tall"			"28"
+		"xpos"			"15"
+		"ypos"			"3"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_sapper"
 		"iconColor"		"White"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NotBuiltPanel"
 		"xpos"			"0"
-		"ypos"			"146"
+		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"31"
+		"tall"			"30"
 		"visible"		"1"
-		
+
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultSmall"
+			"font"			"HudFontSmallest"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
-			"tall"			"31"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -67,28 +67,30 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"proportionaltoparent"	"1"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BuiltPanel"
 		"xpos"			"0"
-		"ypos"			"146"
+		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"43"
+		"tall"			"30"
 		"visible"		"0"
-		
+		"proportionaltoparent"	"1"
+
 		"Health"
-		{	
+		{
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"13"
-			"ypos"			"2"
+			"xpos"			"0"
+			"ypos"			"3"
 			"wide"			"8"
-			"tall"			"24"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -96,8 +98,9 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"proportionaltoparent"	"1"
 		}
-		
+
 		"BuildingPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -105,14 +108,14 @@
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"100"
-			"tall"			"31"
+			"tall"			"30"
 			"visible"		"0"
-			
+
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"HudFontSmallest"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -126,16 +129,16 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-			
+
 			"BuildingProgress"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
-				"tall"			"8"
+				"tall"			"10"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -145,41 +148,44 @@
 				"brighttext"	"0"
 			}
 		}
-		
+
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"55"
-			"ypos"			"0"
+			"xpos"			"35"
+			"ypos"			"3"
 			"wide"			"100"
-			"tall"			"31"
+			"tall"			"30"
 			"visible"		"0"
-			
+			"proportionaltoparent"	"1"
+
 			"TargetIcon"
 			{
 				"ControlName"	"CIconPanel"
 				"fieldName"		"TargetIcon"
 				"xpos"			"0"
-				"ypos"			"5"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"1"
+				"ypos"			"10"
+				"zpos"			"1"
+				"wide"			"10"
+				"tall"			"10"
+				"visible"		"0"
 				"enabled"		"1"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"icon"			"obj_status_sentrygun_1"
 				"iconColor"		"White"
+				"proportionaltoparent"	"1"
 			}
-			
+
 			"TargetHealth"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"TargetHealth"
 				"font"			"Default"
-				"xpos"			"22"
-				"ypos"			"12"
-				"wide"			"35"
-				"tall"			"8"
+				"xpos"			"12"
+				"ypos"			"10"
+				"wide"			"38"
+				"tall"			"10"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -187,6 +193,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
+				"proportionaltoparent"	"1"
 			}
 		}
 	}

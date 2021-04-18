@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -28,15 +28,15 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"TransparentBlack"
 	}
-	
+
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle"
 		"xpos"			"c-180"
-		"ypos"			"c-135"
+		"ypos"			"c-116"
 		"zpos"			"1"
 		"wide"			"360"
 		"tall"			"26"
@@ -46,18 +46,19 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMedium"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"MapInfoType"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
 		"xpos"			"c-180"
-		"ypos"			"c-110"
+		"ypos"			"c-140"
 		"zpos"			"1"
 		"wide"			"360"
+		"tall"			"26"
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -65,15 +66,15 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"font"			"Cerbetica16"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"TanLight"
-	}	
-	
+	}
+
 	"MapInfoText"
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"Cerbetica12"
+		"font"			"HudFontSmall"
 		"xpos"			"c-170"
 		"ypos"			"c-90"
 		"zpos"			"3"
@@ -87,7 +88,7 @@
 		"textAlignment"	"east"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"MapImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -107,13 +108,6 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"9999"
-	}
-	
-	"MapInfoContinue2"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoContinue2"
 		"xpos"			"c-60"
 		"ypos"			"c96"
 		"zpos"			"6"
@@ -123,29 +117,29 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"CONTINUE (&E)"
+		"labelText"		"#TF_Continue"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMedium"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"
 	}
-	
+
 	"MapInfoWatchIntro"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
 		"xpos"			"9999"
 	}
-	
+
 	"MapInfoBack"
 	{
 		"ControlName"	"CExButton"
@@ -164,16 +158,16 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMedium"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanDark"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -186,5 +180,29 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
+	}
+
+	"teambutton0SC"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"teambutton0SC"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&E"
+		"command"		"continue"
+	}
+
+	"teambutton1SC"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"teambutton1SC"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&Q"
+		"command"		"back"
 	}
 }

@@ -10,7 +10,7 @@
 		"ypos"				"20"
 		"zpos"				"0"
 		"wide"				"200"
-		"tall"				"130"
+		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
 		"scaleImage"		"1"
@@ -18,17 +18,17 @@
 		"tileImage"			"1"
 		"drawcolor"			"192 192 192 255"
 	}
-	
+
 	"BuildIcon"
 	{
 		"iconColor"			"ColorGreen"
 	}
-	
+
 	"TitleLabel"
 	{
 		"fgcolor"			"ColorGreen"
 	}
-	
+
 	"CancelLabel"
 	{
 		"fgcolor"			"ColorGreen"

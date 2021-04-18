@@ -4,36 +4,21 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"MainBackground"
-		"xpos"				"0"
-		"ypos"				"20"
-		"zpos"				"0"
-		"wide"				"400"
-		"tall"				"130"
-		"visible"			"1"
-		"enabled"			"1"
-		"paintbackground" 	"0"
+		"xpos"				"9999"
 	}
-	
-	"BuildIcon"	
+
+	"BuildIcon"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"BuildIcon"
 		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"1"
-		"wide"				"48"
-		"tall"				"48"
-		"visible"			"0"
-		"enabled"			"0"
-		"scaleImage"		"1"
-		"icon"				"ico_build"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"CerbeticaBold32"
+		"font"				"Cerbetica28"
 		"xpos"				"20"
 		"ypos"				"0"
 		"zpos"				"2"
@@ -44,16 +29,16 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#Hud_menu_build_title"
-		"textAlignment"		"Left"
+		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"TitleLabelDropshadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
-		"font"				"CerbeticaBold32"
+		"font"				"Cerbetica28"
 		"fgcolor"			"TransparentBlack"
 		"xpos"				"-2"
 		"ypos"				"-2"
@@ -65,35 +50,32 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#Hud_menu_build_title"
-		"textAlignment"		"Left"
+		"textAlignment"		"west"
 		"dulltext"			"1"
 		"brighttext"		"0"
-		
-		"pin_to_sibling"		"TitleLabel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling"	"TitleLabel"
 	}
-	
+
 	"CancelLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CancelLabel"
 		"font"				"SpectatorKeyHints"
-		"xpos"				"9999"
-		"ypos"				"9999"
+		"xpos"				"0"
+		"ypos"				"8"
 		"zpos"				"1"
-		"wide"				"200"
+		"wide"				"395"
 		"tall"				"13"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 		"labelText"			"#Hud_Menu_Build_Cancel"
-		"textAlignment"		"East"
+		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"active_item_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -105,7 +87,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"active_item_2"
 	{
 		"ControlName"		"EditablePanel"
@@ -117,7 +99,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"active_item_3"
 	{
 		"ControlName"		"EditablePanel"
@@ -129,7 +111,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"active_item_4"
 	{
 		"ControlName"		"EditablePanel"
@@ -141,7 +123,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"already_built_item_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -153,7 +135,7 @@
 		"tall"				"130"
 		"visible"			"0"
 	}
-	
+
 	"already_built_item_2"
 	{
 		"ControlName"		"EditablePanel"
@@ -165,7 +147,7 @@
 		"tall"				"130"
 		"visible"			"0"
 	}
-	
+
 	"already_built_item_3"
 	{
 		"ControlName"		"EditablePanel"
@@ -177,7 +159,7 @@
 		"tall"				"130"
 		"visible"			"0"
 	}
-	
+
 	"already_built_item_4"
 	{
 		"ControlName"		"EditablePanel"
@@ -189,7 +171,7 @@
 		"tall"				"130"
 		"visible"			"0"
 	}
-	
+
 	"cant_afford_item_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -201,7 +183,7 @@
 		"tall"				"130"
 		"visible"			"0"
 	}
-	
+
 	"cant_afford_item_2"
 	{
 		"ControlName"		"EditablePanel"
@@ -213,7 +195,7 @@
 		"tall"				"130"
 		"visible"			"0"
 	}
-	
+
 	"cant_afford_item_3"
 	{
 		"ControlName"		"EditablePanel"
@@ -225,7 +207,7 @@
 		"tall"				"130"
 		"visible"			"0"
 	}
-	
+
 	"cant_afford_item_4"
 	{
 		"ControlName"		"EditablePanel"
@@ -237,7 +219,7 @@
 		"tall"				"130"
 		"visible"			"0"
 	}
-	
+
 	"unavailable_item_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -249,7 +231,7 @@
 		"tall"				"130"
 		"visible"			"0"
 	}
-	
+
 	"unavailable_item_2"
 	{
 		"ControlName"		"EditablePanel"
@@ -261,7 +243,7 @@
 		"tall"				"130"
 		"visible"			"0"
 	}
-	
+
 	"unavailable_item_3"
 	{
 		"ControlName"		"EditablePanel"
@@ -273,7 +255,7 @@
 		"tall"				"130"
 		"visible"			"0"
 	}
-	
+
 	"unavailable_item_4"
 	{
 		"ControlName"		"EditablePanel"
@@ -285,7 +267,7 @@
 		"tall"				"130"
 		"visible"			"0"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -294,7 +276,7 @@
 		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"400"
-		"tall"				"130"
+		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"TransparentBlack"

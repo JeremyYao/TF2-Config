@@ -2,49 +2,49 @@
 {
 	"mouseoveritempanel"
 	{
-		"fieldName"				"mouseoveritempanel"
-		"collection_list_xpos"	"250"
-		"is_mouseover"			"1"
-		"text_xpos_collection"	"0"
-		"text_ypos"				"15"
-		"text_forcesize" 		"0"
-		"text_xpos"				"15"
-		"text_wide"				"270"
+		"fieldName"					"mouseoveritempanel"
+		"collection_list_xpos"		"250"
+		"is_mouseover"				"1"
+		"text_xpos_collection"		"0"
+		"text_ypos"					"15"
+		"text_forcesize" 			"0"
+		"text_xpos"					"15"
+		"text_wide"					"270"
 		//"model_xpos_collection"	"77"
 		//"model_ypos_collection"	"20"
 		//"model_wide_collection"	"156"
 		//"model_tall_collection"	"100"
 	}
-	
+
 	"LoadingSpinner"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"LoadingSpinner"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"paintborder"	"0"
-		"image"			"animated/tf2_logo_hourglass"
-		"scaleImage"	"1"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"LoadingSpinner"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"f0"
+		"tall"				"f0"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"0"
+		"enabled"			"1"
+		"paintborder"		"0"
+		"image"				"animated/tf2_logo_hourglass"
+		"scaleImage"		"1"
 	}
-	
+
 	"MainContentsContainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MainContentsContainer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"bgcolor_override"		"Transparent"
-		
+		"ControlName"		"EditablePanel"
+		"fieldName"			"MainContentsContainer"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"f0"
+		"visible"			"1"
+		"bgcolor_override"	"Transparent"
+
 		"itemmodelpanel"
 		{
 			"ControlName"	"CEmbeddedItemModelPanel"
@@ -64,7 +64,7 @@
 			"fov"			"54"
 			"start_framed"	"1"
 			"disable_manipulation"	"1"
-			
+
 			"model"
 			{
 				"angles_x"		"10"
@@ -73,12 +73,12 @@
 				"spotlight"		"1"
 			}
 		}
-		
+
 		"namelabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"namelabel"
-			"font"			"ItemFontNameLarge"
+			"font"			"ItemFontNameLarger"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
@@ -93,7 +93,7 @@
 			"fgcolor"		"TanLight"
 			"centerwrap"	"1"
 		}
-		
+
 		"attriblabel"
 		{
 			"ControlName"	"CExLabel"
@@ -113,7 +113,7 @@
 			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
-		
+
 		"equippedlabel"
 		{
 			"ControlName"	"CExLabel"
@@ -134,7 +134,7 @@
 			"bgcolor_override"		"ColorBlack"
 			"PaintBackgroundType"	"2"
 		}
-		
+
 		"paint_icon"
 		{
 			"ControlName"	"CItemMaterialCustomizationIconPanel"
@@ -147,12 +147,12 @@
 			"visible"		"0"
 			"enabled"		"1"
 		}
-		
+
 		"quantitylabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"Cerbetica8"
+			"font"			"Default"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -168,16 +168,16 @@
 			"bgcolor_override"		"ColorBlack"
 			"PaintBackgroundType"	"2"
 		}
-		
+
 		"serieslabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"Cerbetica8"
+			"font"			"Cerbetica10"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"14"
+			"wide"			"17"
 			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -189,7 +189,7 @@
 			"bgcolor_override"		"0 40 30 255"
 			"PaintBackgroundType"	"2"
 		}
-		
+
 		"matcheslabel"
 		{
 			"ControlName"	"CExLabel"
@@ -210,7 +210,7 @@
 			"bgcolor_override"		"0 40 30 255"
 			"PaintBackgroundType"	"2"
 		}
-		
+
 		"vision_restriction_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -226,7 +226,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-		
+
 		"is_strange_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -242,7 +242,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-		
+
 		"is_unusual_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -258,7 +258,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-		
+
 		"is_loaner_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -274,7 +274,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-		
+
 		"contained_item_panel"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -299,7 +299,7 @@
 			"model_only"	"1"
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"

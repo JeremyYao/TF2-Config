@@ -2,21 +2,21 @@
 {
 	"CharInfoLoadoutSubPanel"
 	{
-		"ControlName"		"Frame"
-		"fieldName"			"CharInfoLoadoutSubPanel"
-		"xpos"				"0"
-		"ypos"				"40"
-		"wide"				"f0"
-		"tall"				"480"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"DarkGrey"
-		"infocus_bgcolor_override"		"DarkGrey"
+		"ControlName"				"Frame"
+		"fieldName"					"CharInfoLoadoutSubPanel"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"480"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"settitlebarvisible"		"0"
+		"PaintBackgroundType"		"0"
+		"bgcolor_override"			"DarkGrey"
+		"infocus_bgcolor_override"	"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
@@ -31,484 +31,501 @@
 		"itemcountcolor"			"ColorCyan"
 		"itemcountcolor_noitems"	"TextColor"
 	}
-	
+
 	"scout"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"scout"
-		"xpos"				"c-300"
-		"ypos"				"120"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"120"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"loadout scout"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_scout_blu"
-		"inactiveimage"		"class_sel_sm_scout_inactive"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"scout"
+		"xpos"						"c-300"
+		"ypos"						"120"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"120"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"&1"
+		"textAlignment"				"south-west"
+		"textinsetx"				"-9999"
+		"textinsety"				"-9999"
+		"Command"					"loadout scout"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"class_sel_sm_scout_blu"
+		"inactiveimage"				"class_sel_sm_scout_inactive"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"soldier"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"soldier"
-		"xpos"				"c-250"
-		"ypos"				"120"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"120"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"loadout soldier"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_soldier_blu"
-		"inactiveimage"		"class_sel_sm_soldier_inactive"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"soldier"
+		"xpos"						"c-250"
+		"ypos"						"120"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"120"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"&2"
+		"textAlignment"				"south-west"
+		"textinsetx"				"-9999"
+		"textinsety"				"-9999"
+		"Command"					"loadout soldier"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"class_sel_sm_soldier_blu"
+		"inactiveimage"				"class_sel_sm_soldier_inactive"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"pyro"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"pyro"
-		"xpos"				"c-200"
-		"ypos"				"120"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"120"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"loadout pyro"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_pyro_blu"
-		"inactiveimage"		"class_sel_sm_pyro_inactive"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"pyro"
+		"xpos"						"c-200"
+		"ypos"						"120"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"120"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"&3"
+		"textAlignment"				"south-west"
+		"textinsetx"				"-9999"
+		"textinsety"				"-9999"
+		"Command"					"loadout pyro"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"class_sel_sm_pyro_blu"
+		"inactiveimage"				"class_sel_sm_pyro_inactive"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"demoman"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"demoman"
-		"xpos"				"c-110"
-		"ypos"				"120"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"120"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"loadout demoman"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_demo_blu"
-		"inactiveimage"		"class_sel_sm_demo_inactive"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"demoman"
+		"xpos"						"c-110"
+		"ypos"						"120"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"120"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"&4"
+		"textAlignment"				"south-west"
+		"textinsetx"				"-9999"
+		"textinsety"				"-9999"
+		"Command"					"loadout demoman"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"class_sel_sm_demo_blu"
+		"inactiveimage"				"class_sel_sm_demo_inactive"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"heavyweapons"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"heavyweapons"
-		"xpos"				"c-60"
-		"ypos"				"120"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"120"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"loadout heavy"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_heavy_blu"
-		"inactiveimage"		"class_sel_sm_heavy_inactive"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"heavyweapons"
+		"xpos"						"c-60"
+		"ypos"						"120"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"120"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"&5"
+		"textAlignment"				"south-west"
+		"textinsetx"				"-9999"
+		"textinsety"				"-9999"
+		"Command"					"loadout heavy"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"class_sel_sm_heavy_blu"
+		"inactiveimage"				"class_sel_sm_heavy_inactive"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"engineer"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"engineer"
-		"xpos"				"c-10"
-		"ypos"				"120"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"120"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"loadout engineer"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_engineer_blu"
-		"inactiveimage"		"class_sel_sm_engineer_inactive"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"engineer"
+		"xpos"						"c-10"
+		"ypos"						"120"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"120"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"&6"
+		"textAlignment"				"south-west"
+		"textinsetx"				"-9999"
+		"textinsety"				"-9999"
+		"Command"					"loadout engineer"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"class_sel_sm_engineer_blu"
+		"inactiveimage"				"class_sel_sm_engineer_inactive"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"medic"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"medic"
-		"xpos"				"c78"
-		"ypos"				"120"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"120"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"loadout medic"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_medic_blu"
-		"inactiveimage"		"class_sel_sm_medic_inactive"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"medic"
+		"xpos"						"c78"
+		"ypos"						"120"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"120"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"&7"
+		"textAlignment"				"south-west"
+		"textinsetx"				"-9999"
+		"textinsety"				"-9999"
+		"Command"					"loadout medic"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"class_sel_sm_medic_blu"
+		"inactiveimage"				"class_sel_sm_medic_inactive"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"sniper"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"sniper"
-		"xpos"				"c128"
-		"ypos"				"120"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"120"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"loadout sniper"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_sniper_blu"
-		"inactiveimage"		"class_sel_sm_sniper_inactive"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"sniper"
+		"xpos"						"c128"
+		"ypos"						"120"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"120"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"&8"
+		"textAlignment"				"south-west"
+		"textinsetx"				"-9999"
+		"textinsety"				"-9999"
+		"Command"					"loadout sniper"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"class_sel_sm_sniper_blu"
+		"inactiveimage"				"class_sel_sm_sniper_inactive"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"spy"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"spy"
-		"xpos"				"c178"
-		"ypos"				"120"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"120"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"loadout spy"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_spy_blu"
-		"inactiveimage"		"class_sel_sm_spy_inactive"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"spy"
+		"xpos"						"c178"
+		"ypos"						"120"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"120"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"&9"
+		"textAlignment"				"south-west"
+		"textinsetx"				"-9999"
+		"textinsety"				"-9999"
+		"Command"					"loadout spy"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"class_sel_sm_spy_blu"
+		"inactiveimage"				"class_sel_sm_spy_inactive"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ShowBackpackButton"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"ShowBackpackButton"
-		"xpos"				"c-290"
-		"ypos"				"235"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"60"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"backpack"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"..\hud\backpack_01"
-		"inactiveimage"		"..\hud\backpack_01_grey"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"ShowBackpackButton"
+		"xpos"						"c-290"
+		"ypos"						"235"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"60"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					""
+		"textAlignment"				"south-west"
+		"Command"					"backpack"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"..\hud\backpack_01"
+		"inactiveimage"				"..\hud\backpack_01_grey"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
 	"ShowBackpackLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"ShowBackpackLabel"
-		"font"				"CerbeticaBold16"
-		"labelText"			"#BackpackTitle"
-		"textAlignment"		"north"
-		"xpos"				"0"
-		"ypos"				"5"
-		"zpos"				"7"
-		"wide"				"120"
-		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		
+		"ControlName"				"CExLabel"
+		"fieldName"					"ShowBackpackLabel"
+		"font"						"HudFontSmall"
+		"labelText"					"#BackpackTitle"
+		"textAlignment"				"north"
+		"xpos"						"0"
+		"ypos"						"5"
+		"zpos"						"7"
+		"wide"						"120"
+		"tall"						"20"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+
 		"pin_to_sibling"			"ShowBackpackButton"
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"6"
 	}
-	
+
 	"ShowCraftingButton"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"ShowCraftingButton"
-		"xpos"				"c-160"
-		"ypos"				"235"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"60"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"crafting"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"crafting_anvil"
-		"inactiveimage"		"crafting_anvil_gray"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"ShowCraftingButton"
+		"xpos"						"c-160"
+		"ypos"						"235"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"60"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					""
+		"textAlignment"				"south-west"
+		"Command"					"crafting"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"crafting_anvil"
+		"inactiveimage"				"crafting_anvil_gray"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ShowCraftingLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"ShowCraftingLabel"
-		"font"				"CerbeticaBold16"
-		"labelText"			"#CraftingExplanation_Title"
-		"textAlignment"		"north"
-		"xpos"				"0"
-		"ypos"				"5"
-		"zpos"				"7"
-		"wide"				"120"
-		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"allcaps"			"1"
-		
+		"ControlName"				"CExLabel"
+		"fieldName"					"ShowCraftingLabel"
+		"font"						"HudFontSmall"
+		"labelText"					"#CraftingExplanation_Title"
+		"textAlignment"				"north"
+		"xpos"						"0"
+		"ypos"						"5"
+		"zpos"						"7"
+		"wide"						"120"
+		"tall"						"20"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"allcaps"					"1"
+
 		"pin_to_sibling"			"ShowCraftingButton"
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"6"
 	}
-	
+
 	"ShowArmoryButton"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"ShowArmoryButton"
-		"xpos"				"c-30"
-		"ypos"				"235"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"60"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"armory"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"catalog_book"
-		"inactiveimage"		"catalog_book_gray"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"ShowArmoryButton"
+		"xpos"						"c-30"
+		"ypos"						"235"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"60"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					""
+		"textAlignment"				"south-west"
+		"Command"					"armory"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"catalog_book"
+		"inactiveimage"				"catalog_book_gray"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ShowArmoryLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"ShowArmoryLabel"
-		"font"				"CerbeticaBold16"
-		"labelText"			"#Armory"
-		"textAlignment"		"north"
-		"xpos"				"0"
-		"ypos"				"5"
-		"zpos"				"7"
-		"wide"				"120"
-		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		
+		"ControlName"				"CExLabel"
+		"fieldName"					"ShowArmoryLabel"
+		"font"						"HudFontSmall"
+		"labelText"					"#Armory"
+		"textAlignment"				"north"
+		"xpos"						"0"
+		"ypos"						"5"
+		"zpos"						"7"
+		"wide"						"120"
+		"tall"						"20"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+
 		"pin_to_sibling"			"ShowArmoryButton"
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"6"
 	}
-	
+
 	"ShowTradeButton"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"ShowTradeButton"
-		"xpos"				"c100"
-		"ypos"				"235"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"60"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"trading"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"trading_parcel"
-		"inactiveimage"		"trading_parcel_gray"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"ShowTradeButton"
+		"xpos"						"c100"
+		"ypos"						"235"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"60"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					""
+		"textAlignment"				"south-west"
+		"Command"					"trading"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"trading_parcel"
+		"inactiveimage"				"trading_parcel_gray"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ShowTradeLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"ShowTradeLabel"
-		"font"				"CerbeticaBold16"
-		"labelText"			"#TradingExplanation_Title"
-		"textAlignment"		"north"
-		"xpos"				"0"
-		"ypos"				"5"
-		"zpos"				"7"
-		"wide"				"120"
-		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"wrap"				"0"
-		"allcaps"			"1"
-		
-		"pin_to_sibling"               "ShowTradeButton"
-		"pin_corner_to_sibling"        "4"
-		"pin_to_sibling_corner"        "6"
+		"ControlName"				"CExLabel"
+		"fieldName"					"ShowTradeLabel"
+		"font"						"HudFontSmall"
+		"labelText"					"#TradingExplanation_Title"
+		"textAlignment"				"north"
+		"xpos"						"0"
+		"ypos"						"5"
+		"zpos"						"7"
+		"wide"						"120"
+		"tall"						"20"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"wrap"						"0"
+		"allcaps"					"1"
+
+		"pin_to_sibling"			"ShowTradeButton"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
 	}
-	
+
 	"ShowPaintkitsButton"
 	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"ShowPaintkitsButton"
-		"xpos"				"c230"
-		"ypos"				"235"
-		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"60"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"paintkit_preview"
-		"Default"			"0"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		"activeimage"		"paintkit_tool"
-		"inactiveimage"		"paintkit_tool_bw"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"ImageButton"
+		"fieldName"					"ShowPaintkitsButton"
+		"xpos"						"c230"
+		"ypos"						"235"
+		"zpos"						"6"
+		"wide"						"60"
+		"tall"						"60"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					""
+		"textAlignment"				"south-west"
+		"Command"					"paintkit_preview"
+		"Default"					"0"
+		"font"						"MenuKeys"
+		"scaleImage"				"1"
+		"activeimage"				"paintkit_tool"
+		"inactiveimage"				"paintkit_tool_bw"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	
 	"ShowPaintkitsLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"ShowPaintkitsLabel"
-		"font"				"CerbeticaBold16"
-		"labelText"			"#PaintkitTitle"
-		"textAlignment"		"north"
-		"xpos"				"0"
-		"ypos"				"5"
-		"zpos"				"7"
-		"wide"				"120"
-		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"wrap"				"0"
-		
-		"pin_to_sibling"               "ShowPaintkitsButton"
-		"pin_corner_to_sibling"        "4"
-		"pin_to_sibling_corner"        "6"
+		"ControlName"				"CExLabel"
+		"fieldName"					"ShowPaintkitsLabel"
+		"font"						"HudFontSmall"
+		"labelText"					"#PaintkitTitle"
+		"textAlignment"				"north"
+		"xpos"						"0"
+		"ypos"						"5"
+		"zpos"						"7"
+		"wide"						"120"
+		"tall"						"20"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"wrap"						"0"
+
+		"pin_to_sibling"			"ShowPaintkitsButton"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
 	}
-	
+
 	"ClassLabel"
 	{
 		"ControlName"		"Label"
@@ -526,16 +543,16 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
-	
+
 	"ItemsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemsLabel"
-		"font"				"HudFontSmall"
+		"font"				"HudFontSmallest"
 		"labelText"			"classname"
 		"textAlignment"		"north"
 		"xpos"				"0"
-		"ypos"				"220"
+		"ypos"				"215"
 		"zpos"				"1"
 		"wide"				"300"
 		"tall"				"30"
@@ -546,7 +563,7 @@
 		"fgcolor"			"TextColor"
 		"centerwrap"		"1"
 	}
-	
+
 	"NoSteamLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -565,7 +582,7 @@
 		"enabled"			"1"
 		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"NoGCLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -603,7 +620,7 @@
 		"enabled"			"1"
 		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"LoadoutChangesLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -622,7 +639,7 @@
 		"enabled"			"1"
 		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"class_loadout_panel"
 	{
 		"ControlName"		"CClassLoadoutPanel"
@@ -634,7 +651,7 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
-	
+
 	"backpack_panel"
 	{
 		"ControlName"		"CBackpackPanel"
@@ -646,7 +663,7 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
-	
+
 	"ShowExplanationsButton"
 	{
 		"ControlName"	"CExButton"
@@ -671,7 +688,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"StartExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -693,7 +710,7 @@
 		"callout_inparents_x"	"c0"
 		"callout_inparents_y"	"150"
 		"next_explanation"		"BackpackExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -712,7 +729,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -731,7 +748,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -746,37 +763,21 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"("
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "TanLight"
-			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"TanLight"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/close"
-				"scaleImage"	"1"
-			}
+			"defaultFgColor_override" 	"TanLight"
+			"armedFgColor_override" 	"LightRed"
+			"depressedFgColor_override" "TanLight"
 		}
 		"PositionLabel"
 		{
@@ -816,17 +817,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
 			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -843,7 +845,7 @@
 			}
 		}
 	}
-	
+
 	"BackpackExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -857,7 +859,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-320"
 		"end_y"			"60"
@@ -866,7 +868,7 @@
 		"callout_inparents_x"	"c-255"
 		"callout_inparents_y"	"240"
 		"next_explanation"		"CraftingExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -885,7 +887,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -904,7 +906,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -919,39 +921,23 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"("
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "TanLight"
-			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"TanLight"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/close"
-				"scaleImage"	"1"
-			}
+			"defaultFgColor_override" 	"TanLight"
+			"armedFgColor_override" 	"LightRed"
+			"depressedFgColor_override" "TanLight"
 		}
-		
+
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -972,17 +958,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
 			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -998,7 +985,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1017,7 +1004,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 		}
-		
+
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1038,17 +1025,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
 			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1065,7 +1053,7 @@
 			}
 		}
 	}
-	
+
 	"CraftingExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1087,7 +1075,7 @@
 		"callout_inparents_x"	"c-130"
 		"callout_inparents_y"	"240"
 		"next_explanation"		"ArmoryExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1106,7 +1094,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1125,7 +1113,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1140,39 +1128,23 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"("
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "TanLight"
-			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"TanLight"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/close"
-				"scaleImage"	"1"
-			}
+			"defaultFgColor_override" 	"TanLight"
+			"armedFgColor_override" 	"LightRed"
+			"depressedFgColor_override" "TanLight"
 		}
-		
+
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1193,17 +1165,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
 			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1219,7 +1192,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1238,7 +1211,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 		}
-		
+
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1259,17 +1232,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
 			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1286,7 +1260,7 @@
 			}
 		}
 	}
-	
+
 	"ArmoryExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1308,7 +1282,7 @@
 		"callout_inparents_x"	"c0"
 		"callout_inparents_y"	"240"
 		"next_explanation"		"TradingExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1327,7 +1301,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1346,7 +1320,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1361,39 +1335,23 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"("
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "TanLight"
-			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"TanLight"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/close"
-				"scaleImage"	"1"
-			}
+			"defaultFgColor_override" 	"TanLight"
+			"armedFgColor_override" 	"LightRed"
+			"depressedFgColor_override" "TanLight"
 		}
-		
+
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1414,17 +1372,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
 			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1440,7 +1399,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1459,7 +1418,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 		}
-		
+
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1480,17 +1439,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
 			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1507,7 +1467,7 @@
 			}
 		}
 	}
-	
+
 	"TradingExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1529,7 +1489,7 @@
 		"callout_inparents_x"	"c130"
 		"callout_inparents_y"	"240"
 		"next_explanation"		"PatternsExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1548,7 +1508,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1567,7 +1527,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1582,39 +1542,23 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"("
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "TanLight"
-			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"TanLight"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/close"
-				"scaleImage"	"1"
-			}
+			"defaultFgColor_override" 	"TanLight"
+			"armedFgColor_override" 	"LightRed"
+			"depressedFgColor_override" "TanLight"
 		}
-		
+
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1635,17 +1579,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
 			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1661,7 +1606,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1680,7 +1625,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "LightRed"
 		}
-		
+
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1701,17 +1646,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
 			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1728,7 +1674,7 @@
 			}
 		}
 	}
-	
+
 	"PatternsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1750,7 +1696,7 @@
 		"callout_inparents_x"	"c255"
 		"callout_inparents_y"	"240"
 		"next_explanation"		"ExplanationExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1769,7 +1715,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1788,7 +1734,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1803,39 +1749,23 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"("
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "TanLight"
-			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"LightRed"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/close"
-				"scaleImage"	"1"
-			}
+			"defaultFgColor_override" 	"TanLight"
+			"armedFgColor_override" 	"LightRed"
+			"depressedFgColor_override" "TanLight"
 		}
-		
+
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1856,17 +1786,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
 			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1882,7 +1813,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1901,7 +1832,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 		}
-		
+
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1922,17 +1853,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
 			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1949,7 +1881,7 @@
 			}
 		}
 	}
-	
+
 	"ExplanationExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1970,7 +1902,7 @@
 		"end_tall"		"120"
 		"callout_inparents_x"	"c285"
 		"callout_inparents_y"	"30"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1989,7 +1921,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -2008,7 +1940,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2023,39 +1955,23 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"("
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "TanLight"
-			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"TanLight"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/close"
-				"scaleImage"	"1"
-			}
+			"defaultFgColor_override" 	"TanLight"
+			"armedFgColor_override" 	"LightRed"
+			"depressedFgColor_override" "TanLight"
 		}
-		
+
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2076,17 +1992,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
 			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2102,7 +2019,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -2122,7 +2039,7 @@
 			"fgcolor_override" "TanLight"
 		}
 	}
-	
+
 	"armory_panel"
 	{
 		"ControlName"		"CArmoryPanel"
@@ -2132,19 +2049,19 @@
 		"wide"				"f0"
 		"tall"				"400"
 		"zpos"				"500"
-		"visible"			"1"
+		"visible"			"0"
 	}
-	
+
 	"InspectionPanel"
 	{
-		"fieldName"		"InspectionPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"2000"
-		"wide"			"f0"
-		"tall"			"f100"
-		"visible"		"0"
+		"fieldName"			"InspectionPanel"
+		"xpos"				"cs-0.5"
+		"ypos"				"0"
+		"zpos"				"2000"
+		"wide"				"f0"
+		"tall"				"f100"
+		"visible"			"0"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"		"DarkGrey"
 	}
 }

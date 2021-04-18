@@ -19,12 +19,12 @@
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"DarkGrey"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TitleLabel"
-		"font"					"Cerbetica32"
+		"font"					"HudFontMediumBold"
 		"labelText"				"#ConfirmTitle"
 		"textAlignment"			"north"
 		"xpos"					"0"
@@ -38,7 +38,7 @@
 		"enabled"				"1"
 		"fgcolor_override" 		"ColorCyan"
 	}
-	
+
 	"AbandonIcon"
 	{
 		"ControlName"			"ImagePanel"
@@ -48,11 +48,11 @@
 		"wide"					"40"
 		"tall"					"40"
 		"image"					"pve/mvm_timeout_active_large"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"scaleImage"			"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -72,16 +72,16 @@
 		"wrap"					"1"
 		"fgcolor_override"		"ColorCyan"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"			"CExButton"
 		"fieldName"				"CancelButton"
-		"xpos"					"165"
+		"xpos"					"190"
 		"ypos"					"165"
 		"zpos"					"20"
-		"wide"					"125"
-		"tall"					"25"
+		"wide"					"100"
+		"tall"					"20"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -97,7 +97,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ConfirmButton"
 	{
 		"ControlName"			"CExButton"
@@ -105,8 +105,8 @@
 		"xpos"					"10"
 		"ypos"					"165"
 		"zpos"					"20"
-		"wide"					"125"
-		"tall"					"25"
+		"wide"					"175"
+		"tall"					"20"
 		"default"				"1"
 		"autoResize"			"0"
 		"pinCorner"				"0"

@@ -4,9 +4,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemNameLabel"
-		"font"				"CerbeticaBold16"
+		"font"				"HudFontSmall"
 		"xpos"				"0"
-		"ypos"				"10"
+		"ypos"				"4"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"15"
@@ -19,7 +19,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"		"CIconPanel"
@@ -35,13 +35,13 @@
 		"icon"				"hud_menu_item_bg"
 		"iconColor"			"Black"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"BuildingIcon"
 		"xpos"				"22"
-		"ypos"				"43"
+		"ypos"				"35"
 		"zpos"				"2"
 		"wide"				"56"
 		"tall"				"56"
@@ -51,7 +51,7 @@
 		"icon"				"hud_menu_sentry_build"
 		"iconColor"			"White"
 	}
-	
+
 	"ModeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -70,31 +70,31 @@
 		"labelText"			""
 		"textAlignment"		"East"
 	}
-	
+
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg"
 		"xpos"				"41"
-		"ypos"				"106"
+		"ypos"				"99"
 		"zpos"				"0"
-		"wide"				"18"
-		"tall"				"18"
+		"wide"				"0"
+		"tall"				"0"
 		"visible"			"0"
 		"enabled"			"0"
 		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NumberLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"CerbeticaBold20"
+		"font"				"HudFontMediumSecondary"
 		"fgcolor"			"TanLight"
 		"xpos"				"0"
-		"ypos"				"105"
+		"ypos"				"95"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"20"

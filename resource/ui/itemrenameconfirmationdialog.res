@@ -19,7 +19,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontMediumBold"
 		"labelText"			"dynamic"
 		"textAlignment"		"center"
 		"xpos"				"100"
@@ -60,8 +60,8 @@
 		"xpos"				"10"
 		"ypos"				"10"
 		"zpos"				"1"
-		"wide"				"200"
-		"tall"				"70"
+		"wide"				"84"
+		"tall"				"64"
 		"visible"			"1"
 		"bgcolor_override"	"Transparent"
 		"noitem_textcolor"	"TextColor"
@@ -74,13 +74,15 @@
 		"text_ypos"			"100"		// Hide it off the bottom
 		"text_center"		"1"
 		"name_only"			"1"
-		
+		"paint_icon_hide"	"1"
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	"SubjectBG"
 	{
 		"ControlName"		"CExLabel"
@@ -107,8 +109,8 @@
 		"xpos"				"300"
 		"ypos"				"10"
 		"zpos"				"1"
-		"wide"				"90"
-		"tall"				"70"
+		"wide"				"84"
+		"tall"				"64"
 		"visible"			"1"
 		"bgcolor_override"	"Transparent"
 		"noitem_textcolor"	"TextColor"
@@ -121,14 +123,15 @@
 		"text_ypos"			"100"		// Hide it off the bottom
 		"text_center"		"1"
 		"name_only"			"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
-	}	
-	
+	}
+
 	"ConfirmLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -146,12 +149,12 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
+
 	"GivenName"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"GivenName"
-		"font"				"HudFontMediumSecondary"
+		"font"				"HudFontSmall"
 		"labelText"			"%name%"
 		"textAlignment"		"center"
 		"xpos"				"20"
@@ -194,14 +197,14 @@
 		"ypos"				"200"
 		"zpos"				"1"
 		"wide"				"130"
-		"tall"				"25"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"3"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Cancel"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontSmall"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -210,7 +213,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"		"CExButton"
@@ -219,14 +222,14 @@
 		"ypos"				"200"
 		"zpos"				"1"
 		"wide"				"130"
-		"tall"				"25"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"3"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#CraftNameConfirm"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontSmall"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"

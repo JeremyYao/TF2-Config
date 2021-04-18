@@ -9,7 +9,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -19,7 +19,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -29,7 +29,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -39,11 +39,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
-	"PlayerStatusHealthValueFreezePanel"
+
+	"GuiPlayerHealth"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueFreezePanel"
+		"fieldName"		"GuiPlayerHealth"
 		"xpos"			"3"
 		"ypos"			"3"
 		"zpos"			"5"
@@ -52,14 +52,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"labeltext"		"%Health%"
 	}
-	
-	"PlayerStatusHealthValueFreezePanelShadow"
+
+	"GuiPlayerHealthShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueFreezePanelShadow"
+		"fieldName"		"GuiPlayerHealthShadow"
 		"xpos"			"4"
 		"ypos"			"4"
 		"zpos"			"5"
@@ -68,7 +68,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"TransparentBlack"
 		"labeltext"		"%Health%"
 	}

@@ -4,9 +4,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemNameLabel"
-		"font"				"CerbeticaBold12"
+		"font"				"HudFontSmall"
 		"xpos"				"0"
-		"ypos"				"10"
+		"ypos"				"4"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"15"
@@ -18,8 +18,9 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor"			"ColorRed"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"		"CIconPanel"
@@ -32,15 +33,15 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"scaleImage"		"1"
-		"icon"				"hud_menu_item_bg"
-		"iconColor"			"Black"
+		"icon"				"hud_menu_item_bg_outline"
+		"iconColor"			"ProgressOffWhiteTransparent"
 	}
-	
+
 	"CantBuildReason"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CantBuildReason"
-		"font"				"CerbeticaBold16"
+		"font"				"HudFontSmall"
 		"xpos"				"0"
 		"ypos"				"60"
 		"zpos"				"2"
@@ -54,14 +55,15 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor"			"ColorRed"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"MetalIcon"
 		"xpos"				"34"
-		"ypos"				"26"
+		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"10"
 		"tall"				"10"
@@ -69,20 +71,20 @@
 		"enabled"			"1"
 		"scaleImage"		"1"
 		"icon"				"ico_metal"
-		"iconColor"			"TanLight"
+		"iconColor"			"ColorRed"
 	}
-	
+
 	"CostLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CostLabel"
-		"font"				"CerbeticaBold16"
-		"fgcolor"			"TanLight"
+		"font"				"HudFontSmall"
+		"fgcolor"			"ColorRed"
 		"xpos"				"50"
-		"ypos"				"25"
-		"zpos"				"1"
+		"ypos"				"20"
+		"zpos"				"4"
 		"wide"				"50"
-		"tall"				"13"
+		"tall"				"10"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -90,54 +92,31 @@
 		"labelText"			"%metal%"
 		"textAlignment"		"Left"
 	}
-	
-	"CostLabelShadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"CostLabelShadow"
-		"font"				"CerbeticaBold16"
-		"fgcolor"			"TransparentBlack"
-		"xpos"				"-2"
-		"ypos"				"-2"
-		"zpos"				"0"
-		"wide"				"50"
-		"tall"				"13"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"%metal%"
-		"textAlignment"		"Left"
-		
-		"pin_to_sibling"		"CostLabel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	
+
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg"
 		"xpos"				"41"
-		"ypos"				"106"
+		"ypos"				"99"
 		"zpos"				"0"
-		"wide"				"18"
-		"tall"				"18"
+		"wide"				"0"
+		"tall"				"0"
 		"visible"			"0"
 		"enabled"			"0"
 		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NumberLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"CerbeticaBold20"
-		"fgcolor"			"TanLight"
+		"font"				"HudFontMediumSecondary"
+		"fgcolor"			"ColorRed"
 		"xpos"				"0"
-		"ypos"				"105"
+		"ypos"				"95"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"20"

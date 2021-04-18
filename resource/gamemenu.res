@@ -1,63 +1,79 @@
 "GameMenu"
 {
-	"SteamWorkshopButton"
-	{
-		"label" 		""
-		"command"		"engine OpenSteamWorkshopDialog"
-		"subimage" 		"glyph_steamworkshop"
-		"tooltip" 		"#MMenu_Tooltip_Workshop"
-	}
 	"AchievementsButton"
 	{
-		"label"			""
+		"label"			"b"
 		"command"		"OpenAchievementsDialog"
-		"subimage" 		"glyph_achievements"
 		"tooltip" 		"#Achievements"
 	}
 	"ConsoleButton"
 	{
-		"label"			""
+		"label"			"c"
 		"command"		"engine toggleconsole"
-		"subimage"		"glyph_options"
 		"tooltip"		"Console"
+	}
+	"ReplayButton"
+	{
+		"label"			"d"
+		"command"		"engine replay_reloadbrowser"
+		"tooltip" 		"#MMenu_Tooltip_Replay"
 	}
 	"ReportBugButton"
 	{
-		"label"			""
+		"label"			"e"
 		"command"		"engine bug"
-		"subimage"		"glyph_bug"
 		"tooltip"		"#MMenu_Tooltip_ReportBug"
+	}
+	"CoachPlayersButton"
+	{
+		"label" 		"g"
+		"command" 		"engine cl_coach_toggle"
+		"tooltip" 		"#MMenu_Tooltip_Coach"
+	}
+	"RequestCoachButton"
+	{
+		"label"			"h"
+		"command"		"engine cl_coach_find_coach"
+		"OnlyInGame"	"1"
+		"tooltip"		"#MMenu_RequestCoach"
 	}
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"i"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage"		"icon_checkbox"
 		"tooltip"		"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			""
-		"command"		"OpenPlayerListDialog"
+		"label"			"j"
+		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"glyph_muted"
 		"tooltip"		"#MMenu_MutePlayers"
-	}
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage"		"glyph_tutorial"
-		"tooltip"		"#MMenu_RequestCoach"
 	}
 	"ReportPlayerButton"
 	{
-		"label"			""
+		"label"			"k"
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"glyph_quest_icon"
 		"tooltip"		"#MMenu_ReportPlayer"
+	}
+	"QuestLogButton"
+	{
+		"label"			"r"
+		"command"		"questlog"
+		"tooltip"		"#TF_QuestMap_Intro_Title"
+	}
+	"MOTD_ShowButtonPanel"
+	{
+		"label"			"o"
+		"command"		"motd_show"
+		"tooltip"		"#TF_MOTD_Title"
+	}
+	"RefreshHUDButton"
+	{
+		"label"			"."
+		"command"		"engine hud_reloadscheme"
+		"tooltip"		"Refresh HUD"
 	}
 }

@@ -9,18 +9,18 @@
 		"ypos"					"80"
 		"wide"					"400"
 		"tall"					"300"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"DarkerGrey"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"border"				"CyanBorderThick"
-		
+
 		"button_kv"
 		{
-			"xpos"			"10"
-			"ypos"			"0"
-			"wide"			"350"
-			"tall"			"30"
-			
+			"xpos"				"10"
+			"ypos"				"0"
+			"wide"				"350"
+			"tall"				"30"
+
 			"button"
 			{
 				"xpos"			"0"
@@ -43,7 +43,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
-			
+
 			"avatar"
 			{
 				"ControlName"	"CAvatarImagePanel"
@@ -56,31 +56,31 @@
 				"image"			""
 				"visible"		"1"
 				"enabled"		"1"
-				"scaleImage"	"1"	
-				"color_outline"	"52 48 45 255"
+				"scaleImage"	"1"
+				"color_outline"	"HudTimerProgressInActive"
 			}
 		}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontMedium"
 		"labelText"		"#TF_TradeStartDialog_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"400"
-		"tall"			"35"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "TanLight"
 	}
-	
+
 	"PlayerListScroller"
 	{
 		"ControlName"	"ScrollableEditablePanel"
@@ -92,7 +92,7 @@
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"TextColor"
 		"bgcolor_override"	"0 0 0 64"
-		
+
 		"PlayerList"
 		{
 			"ControlName"	"EditablePanel"
@@ -104,7 +104,7 @@
 			"visible"		"1"
 		}
 	}
-	
+
 	"StatePanel0"
 	{
 		"ControlName"			"EditablePanel"
@@ -116,12 +116,12 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-		
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_TradeStartDialog_Select"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -135,7 +135,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "HudOffWhite"
 		}
-		
+
 		"subbutton0"
 		{
 			"ControlName"	"CExButton"
@@ -144,14 +144,14 @@
 			"ypos"			"50"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"25"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectFriends"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -168,14 +168,14 @@
 			"ypos"			"90"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"25"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectServer"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -192,14 +192,14 @@
 			"ypos"			"130"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"25"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectProfile"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -209,7 +209,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-	
+
 	"StatePanel1"
 	{
 		"ControlName"			"EditablePanel"
@@ -221,7 +221,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-		
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -239,7 +239,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "HudOffWhite"
 		}
-		
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -261,7 +261,7 @@
 			"fgcolor_override" "HudOffWhite"
 		}
 	}
-	
+
 	"StatePanel2"
 	{
 		"ControlName"			"EditablePanel"
@@ -273,7 +273,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-		
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -292,7 +292,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "HudOffWhite"
 		}
-		
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -314,7 +314,7 @@
 			"fgcolor_override" "ColorCyan"
 		}
 	}
-	
+
 	"StatePanel3"
 	{
 		"ControlName"			"EditablePanel"
@@ -326,7 +326,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-		
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -345,7 +345,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "ColorCyan"
 		}
-		
+
 		"URLHelpLabel"
 		{
 			"ControlName"	"Label"
@@ -354,10 +354,10 @@
 			"labelText"		"#TF_TradeStartDialog_ProfileHelp"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"35"
+			"ypos"			"40"
 			"zpos"			"-1"
 			"wide"			"400"
-			"tall"			"40"
+			"tall"			"35"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -366,7 +366,7 @@
 			"centerwrap"	"1"
 			"fgcolor_override" "TanLight"
 		}
-		
+
 		"URLFailLabel"
 		{
 			"ControlName"	"Label"
@@ -386,7 +386,7 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "ColorCyan"
-		}	
+		}
 		"URLSearchingLabel"
 		{
 			"ControlName"	"Label"
@@ -407,7 +407,7 @@
 			"centerwrap"	"1"
 			"fgcolor_override" "ColorCyan"
 		}
-		
+
 		"URLEntry"
 		{
 			"ControlName"		"TextEntry"
@@ -434,7 +434,7 @@
 			"font"				"HudFontSmall"
 			"textAlignment"		"west"
 		}
-		
+
 		"subbutton0"
 		{
 			"ControlName"	"CExButton"
@@ -443,14 +443,14 @@
 			"ypos"			"150"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"25"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_ProfileGo"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -460,7 +460,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -469,14 +469,14 @@
 		"ypos"			"250"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

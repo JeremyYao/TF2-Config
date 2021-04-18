@@ -33,7 +33,7 @@
 		"alpha"					"180"
 		"image"					"gradient_pure_black"
 	}
-	
+
 	"InnerGradient"
 	{
 		"ControlName"	"ImagePanel"
@@ -50,7 +50,7 @@
 		"scaleimage"			"1"
 		"mouseinputenabled"		"0"
 		"image"					"gradient_pure_black"
-		
+
 		if_left
 		{
 			"xpos"		"rs1-3"
@@ -75,7 +75,7 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"255"
 		"image"					"gradient_pure_black"
-		
+
 		if_left
 		{
 			"xpos"		"0"
@@ -97,7 +97,7 @@
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
 		"textAlignment"	"east"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"
@@ -126,20 +126,20 @@
 		"command"		"nav_to"
 		"labelText"		"<"
 		"textAlignment"	"west"
-		"font"			"Cerbetica14"
-		
+		"font"			"HudFontSmall"
+
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"169 123 53 255"
-		
+
 		if_left
 		{
 			"xpos"		"rs1-3"
 			"labelText"	">"
 		}
 	}
-	
+
 	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"
