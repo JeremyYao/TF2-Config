@@ -58,7 +58,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMedium"
 		"labelText"			"dynamic"
 		"textAlignment"		"center"
 		"xpos"				"100"
@@ -77,7 +77,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ToolBG"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontSmall"
 		"labelText"			""
 		"textAlignment"		"east"
 		"xpos"				"10"
@@ -92,7 +92,7 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_SelfMade"
 	}
-	
+
 	"tool_icon"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -109,7 +109,7 @@
 		"tileVertically"	"0"
 		"drawcolor"			"112 176 74 255"
 	}
-	
+
 	"tool_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -140,12 +140,12 @@
 			"inventory_image_type"	"1"
 		}
 	}
-	
+
 	"SubjectBG"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SubjectBG"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontSmall"
 		"labelText"			""
 		"textAlignment"		"east"
 		"xpos"				"300"
@@ -160,7 +160,7 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_Vintage"
 	}
-	
+
 	"subject_icon"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -177,7 +177,7 @@
 		"tileVertically"	"0"
 		"drawcolor"			"71 98 145 255"
 	}
-	
+
 	"subject_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -224,7 +224,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"Yellow"
+		"fgcolor_override"	"TanLight"
 	}
 
 	"OptionalAppendLabel"
@@ -261,7 +261,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Cancel"
-		"font"				"HudFontSmall"
+		"font"				"HudFontMediumSmall"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -286,7 +286,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#CraftNameConfirm"
-		"font"				"HudFontSmall"
+		"font"				"HudFontMediumSmall"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"

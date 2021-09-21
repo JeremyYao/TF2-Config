@@ -69,11 +69,11 @@
 		"fieldName"		"BlueTeamBackground"
 		"xpos"			"c-25"
 		"ypos"			"0"
-		"wide"			"26"
+		"wide"			"25"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"BlueSolid"
+		"fillcolor"		"Blue"
 		"proportionaltoparent"	"1"
 	}
 
@@ -81,16 +81,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedTeamBackground"
-		"xpos"			"c1"
+		"xpos"			"c0"
 		"ypos"			"0"
 		"wide"			"25"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"RedSolid"
+		"fillcolor"		"Red"
 		"proportionaltoparent"	"1"
 	}
-
+	
 	"TimerBG"
 	{
 		"ControlName"	"ImagePanel"

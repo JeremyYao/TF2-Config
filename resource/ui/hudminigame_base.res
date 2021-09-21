@@ -4,15 +4,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-120"
-		"ypos"			"r20"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"14"
+		"xpos"			"c-60"
+		"ypos"			"r30"
+		"zpos"			"0"
+		"wide"			"60"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"BlueSolid"
-		"scaleImage"	"1"
+		"fillcolor"		"Blue"
 	}
 
 	"RightSideBG"
@@ -20,38 +19,38 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"c0"
-		"ypos"			"r20"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"14"
+		"ypos"			"r30"
+		"zpos"			"0"
+		"wide"			"60"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"RedSolid"
-		"scaleImage"	"1"
+		"fillcolor"		"Red"
 	}
-	
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"9999"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-57"
-		"ypos"			"r33"
+		"xpos"			"c-60"
+		"ypos"			"r30"
 		"zpos"			"8"
-		"wide"			"50"
-		"tall"			"35"
+		"wide"			"60"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
+		"textinsetx"	"10"
 	}
 	"BlueScoreShadow"
 	{
@@ -60,14 +59,15 @@
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"7"
-		"wide"			"50"
-		"tall"			"35"
+		"wide"			"60"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TransparentBlack"
+		"textinsetx"	"10"
 		"pin_to_sibling"	"BlueScore"
 	}
 
@@ -75,17 +75,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c7"
-		"ypos"			"r33"
+		"xpos"			"c0"
+		"ypos"			"r30"
 		"zpos"			"8"
-		"wide"			"50"
-		"tall"			"35"
+		"wide"			"60"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
+		"textinsetx"	"10"
 	}
 	"RedScoreShadow"
 	{
@@ -94,17 +95,18 @@
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"7"
-		"wide"			"50"
-		"tall"			"35"
+		"wide"			"60"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TransparentBlack"
+		"textinsetx"	"10"
 		"pin_to_sibling"	"RedScore"
 	}
-	
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -123,20 +125,20 @@
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"PlayingToBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-50"
+		"xpos"			"c-60"
 		"ypos"			"r50"
-		"zpos"			"3"
-		"wide"			"100"
+		"zpos"			"0"
+		"wide"			"120"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"Transparent"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 
 	"GameImage"

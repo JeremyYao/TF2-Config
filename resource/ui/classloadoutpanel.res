@@ -92,7 +92,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"ColorCyan"
 			"depressedFgColor_override"	"TanLight"
@@ -103,7 +103,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CaratLabel"
-		"font"				"HudFontMediumSmallSecondary"
+		"font"				"HudFontMediumSmall"
 		"labelText"			">>"
 		"textAlignment"		"west"
 		"xpos"				"c-290"
@@ -122,7 +122,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassLabel"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMedium"
 		"labelText"			"#ClassBeingEquipped"
 		"textAlignment"		"west"
 		"xpos"				"c-270"
@@ -134,6 +134,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+		"allcaps"			"1"
 	}
 
 	"TauntCaratLabel"
@@ -388,14 +389,14 @@
 		"scaleImage"		"1"
 		"Command"			"characterloadout"
 		"paintbackground"	"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override" 	"White"
-		
+
 		"defaultBgColor_override"		"ColorCyan"
 		"depressedBgColor_override" 	"ColorCyan"
 	}
@@ -420,14 +421,14 @@
 		"scaleImage"		"1"
 		"Command"			"tauntloadout"
 		"paintbackground"	"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override" 	"White"
-		
+
 		"defaultBgColor_override"		"ColorCyan"
 		"depressedBgColor_override" 	"ColorCyan"
 	}

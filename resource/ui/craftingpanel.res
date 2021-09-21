@@ -19,7 +19,7 @@
 		"bgcolor_override"				"DarkGrey"
 		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
-		
+
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"
 		"item_crafting_offcenter_x"		"0"
@@ -94,7 +94,7 @@
 
 		"recipebuttons_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -107,7 +107,7 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
-			
+
 			"defaultFgColor_override"	"TextColor"
 			"defaultBgColor_override"	"Transparent"
 			"armedFgColor_override"		"TanLight"
@@ -146,7 +146,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassLabel"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontSmall"
 		"labelText"			"#CraftStep1"
 		"textAlignment"		"north-west"
 		"xpos"				"c-290"
@@ -177,7 +177,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"%recipetitle%"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -217,7 +217,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InputLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"#Craft_Recipe_Inputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -236,7 +236,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"OutputLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"#Craft_Recipe_Outputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -266,13 +266,13 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontMedium"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"craft"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -281,7 +281,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeAccountLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"labelText"		"#Craft_PremiumRecipe"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -312,13 +312,13 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_Trial_Upgrade"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"upgrade"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
